@@ -1,0 +1,2213 @@
+[
+  {
+    "id": "skilled-nursing-care",
+    "name": "Skilled Nursing Care",
+    "image": "./assets/services/skilled-nursing-care.jpeg",
+    "category": "Core Home Nursing",
+    "serviceType": "Skilled Nursing",
+    "staffType": [
+      "Registered Nurse (GNM)",
+      "Registered Nurse (B.Sc. Nursing)"
+    ],
+    "content": {
+      "summary": "Professional, compassionate, and comprehensive medical nursing care delivered in the comfort of your home by qualified registered nurses.",
+      "details": [
+        "Our Skilled Nursing Care program provides hospital-level nursing attention for patients recovering from hospitalization, managing chronic illnesses, or requiring specialized medical care at home.",
+        "Every care plan is coordinated with the patient's condition and continuously monitored as health needs change."
+      ]
+    },
+    "serviceScope": [
+      {
+        "icon": "Activity",
+        "title": "Vitals & Monitoring",
+        "description": "Regular monitoring of vital signs, blood pressure, oxygen levels, and blood glucose with detailed reporting."
+      },
+      {
+        "icon": "Pill",
+        "title": "Medication Management",
+        "description": "Administration of prescribed oral, topical, injectable, and other medications."
+      },
+      {
+        "icon": "Bandage",
+        "title": "Wound Care",
+        "description": "Dressing changes, surgical wound management, and pressure sore care."
+      },
+      {
+        "icon": "Syringe",
+        "title": "Clinical Procedures",
+        "description": "Support with IV therapy, injections, catheter care, tube feeding, and other prescribed procedures."
+      }
+    ],
+    "serviceInformation": {
+      "duration": [
+        "Hourly",
+        "12-Hour Shift",
+        "24-Hour Shift"
+      ],
+      "availability": "7 Days a Week, 24×7",
+      "coverageArea": [
+        "Noida",
+        "Greater Noida",
+        "Delhi",
+        "Ghaziabad",
+        "Gurugram",
+        "Faridabad",
+        "Delhi NCR"
+      ]
+    },
+    "tags": [
+      "skilled-nursing",
+      "home-nursing",
+      "registered-nurse",
+      "medical-care"
+    ],
+    "relatedServices": [
+      "24x7-home-nursing-care",
+      "registered-nurses",
+      "post-operative-care",
+      "elderly-bedridden-care"
+    ],
+    "pricing": {
+      "originalPrice": 2800,
+      "discountedPrice": 2450,
+      "currency": "INR"
+    }
+  },
+  {
+    "id": "24x7-home-nursing-care",
+    "name": "24×7 Home Nursing Care",
+    "image": "/assets/services/24x7-home-nursing-care.jpg",
+    "category": "Core Home Nursing",
+    "serviceType": "Home Nursing Staffing",
+    "staffType": [
+      "Registered Nurse (GNM)",
+      "Registered Nurse (B.Sc. Nursing)"
+    ],
+    "content": {
+      "summary": "Round-the-clock professional nursing support for patients who require continuous medical supervision and assistance at home.",
+      "details": [
+        "Our 24×7 Home Nursing Care service provides continuous nursing support for patients who need regular monitoring, medication administration, clinical procedures, and assistance with daily healthcare needs.",
+        "Care is coordinated with the patient's family and treating doctor to maintain continuity and safety throughout the day and night."
+      ]
+    },
+    "serviceScope": [
+      {
+        "icon": "Clock",
+        "title": "Round-the-Clock Care",
+        "description": "Continuous nursing presence and patient supervision throughout the day and night."
+      },
+      {
+        "icon": "Activity",
+        "title": "Health Monitoring",
+        "description": "Regular monitoring of vital signs and changes in the patient's condition."
+      },
+      {
+        "icon": "Pill",
+        "title": "Medication Support",
+        "description": "Timely administration of prescribed medications and treatments."
+      },
+      {
+        "icon": "HeartPulse",
+        "title": "Emergency Escalation",
+        "description": "Prompt escalation to family members and medical professionals when required."
+      }
+    ],
+    "serviceInformation": {
+      "duration": [
+        "24-Hour Shift"
+      ],
+      "availability": "7 Days a Week, 24×7",
+      "coverageArea": [
+        "Noida",
+        "Greater Noida",
+        "Delhi",
+        "Ghaziabad",
+        "Gurugram",
+        "Faridabad",
+        "Delhi NCR"
+      ]
+    },
+    "tags": [
+      "24x7",
+      "home-nursing",
+      "nursing-staff",
+      "round-the-clock-care"
+    ],
+    "relatedServices": [
+      "skilled-nursing-care",
+      "registered-nurses",
+      "gda-caregiver-patient-attendant"
+    ],
+    "pricing": {
+      "originalPrice": null,
+      "discountedPrice": null,
+      "currency": "INR"
+    }
+  },
+  {
+    "id": "icu-care-at-home",
+    "name": "ICU Care at Home",
+    "image": "/assets/services/icu-care-at-home.jpg",
+    "category": "Core Home Nursing",
+    "serviceType": "Critical Care",
+    "staffType": [
+      "ICU-Trained Registered Nurse"
+    ],
+    "content": {
+      "summary": "A complete ICU setup delivered to your home with ICU-trained nursing staff for patients requiring critical-care-level monitoring and support.",
+      "details": [
+        "We deploy critical-care infrastructure including ventilators, BiPAP/CPAP systems, cardiac monitors, and infusion pumps.",
+        "This service is designed for patients being stepped down from a hospital ICU or those requiring continuous clinical supervision at home."
+      ]
+    },
+    "serviceScope": [
+      {
+        "icon": "Wind",
+        "title": "Ventilator & BiPAP Support",
+        "description": "Ventilator, BiPAP, and CPAP management by ICU-trained nursing staff."
+      },
+      {
+        "icon": "HeartPulse",
+        "title": "Cardiac Monitoring",
+        "description": "Continuous cardiac monitoring with appropriate escalation protocols."
+      },
+      {
+        "icon": "Stethoscope",
+        "title": "Tracheostomy & Suction Care",
+        "description": "Professional tracheostomy management and suction care."
+      },
+      {
+        "icon": "ShieldAlert",
+        "title": "24×7 Clinical Support",
+        "description": "Round-the-clock clinical oversight with emergency escalation and ambulance coordination."
+      }
+    ],
+    "serviceInformation": {
+      "duration": [
+        "24-Hour Shift"
+      ],
+      "availability": "7 Days a Week, 24×7",
+      "coverageArea": [
+        "Noida",
+        "Greater Noida",
+        "Delhi",
+        "Ghaziabad",
+        "Gurugram",
+        "Faridabad",
+        "Delhi NCR"
+      ]
+    },
+    "tags": [
+      "icu",
+      "critical-care",
+      "ventilator",
+      "bipap",
+      "cpap"
+    ],
+    "relatedServices": [
+      "icu-trained-nurses",
+      "ventilator-support",
+      "bipap-cpap-support",
+      "tracheostomy-care"
+    ],
+    "pricing": {
+      "originalPrice": 3200,
+      "discountedPrice": 2800,
+      "currency": "INR"
+    }
+  },
+  {
+    "id": "icu-trained-nurses",
+    "name": "ICU Trained Nurses",
+    "image": "/assets/services/icu-trained-nurses.jpg",
+    "category": "Core Home Nursing",
+    "serviceType": "Nursing Staffing",
+    "staffType": [
+      "ICU-Trained Registered Nurse"
+    ],
+    "content": {
+      "summary": "Experienced ICU-trained nurses providing specialized critical care and continuous clinical monitoring at home.",
+      "details": [
+        "Our ICU-trained nurses are experienced in caring for patients requiring advanced monitoring and critical-care support outside a hospital environment.",
+        "Nurses follow the patient's prescribed care plan and coordinate with doctors and family members."
+      ]
+    },
+    "serviceScope": [
+      {
+        "icon": "HeartPulse",
+        "title": "Critical Monitoring",
+        "description": "Continuous monitoring of vital and clinical parameters."
+      },
+      {
+        "icon": "Activity",
+        "title": "Clinical Care",
+        "description": "Professional nursing care according to the patient's medical requirements."
+      },
+      {
+        "icon": "Wind",
+        "title": "Respiratory Support",
+        "description": "Support for patients requiring ventilator, BiPAP, or CPAP management."
+      },
+      {
+        "icon": "Stethoscope",
+        "title": "Doctor Coordination",
+        "description": "Care coordination with treating physicians and family members."
+      }
+    ],
+    "serviceInformation": {
+      "duration": [
+        "12-Hour Shift",
+        "24-Hour Shift"
+      ],
+      "availability": "7 Days a Week, 24×7",
+      "coverageArea": [
+        "Noida",
+        "Greater Noida",
+        "Delhi",
+        "Ghaziabad",
+        "Gurugram",
+        "Faridabad",
+        "Delhi NCR"
+      ]
+    },
+    "tags": [
+      "icu-nurse",
+      "critical-care",
+      "nurse",
+      "home-nursing"
+    ],
+    "relatedServices": [
+      "icu-care-at-home",
+      "skilled-nursing-care"
+    ],
+    "pricing": {
+      "originalPrice": null,
+      "discountedPrice": null,
+      "currency": "INR"
+    }
+  },
+  {
+    "id": "registered-nurses",
+    "name": "Registered Nurses (GNM / B.Sc. Nursing)",
+    "image": "/assets/services/registered-nurses.jpg",
+    "category": "Core Home Nursing",
+    "serviceType": "Nursing Staffing",
+    "staffType": [
+      "Registered Nurse (GNM)",
+      "Registered Nurse (B.Sc. Nursing)"
+    ],
+    "content": {
+      "summary": "Qualified registered nurses providing professional medical and nursing care at home.",
+      "details": [
+        "Our registered nurses provide personalized nursing support for patients recovering from illness, surgery, hospitalization, or managing chronic conditions.",
+        "Care is delivered according to the patient's medical requirements and prescribed care plan."
+      ]
+    },
+    "serviceScope": [
+      {
+        "icon": "Activity",
+        "title": "Patient Monitoring",
+        "description": "Regular monitoring of vitals and general health condition."
+      },
+      {
+        "icon": "Pill",
+        "title": "Medication Administration",
+        "description": "Administration of prescribed medications and treatments."
+      },
+      {
+        "icon": "Bandage",
+        "title": "Clinical Procedures",
+        "description": "Wound care, injections, IV therapy, catheter care, and other prescribed procedures."
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Care Documentation",
+        "description": "Maintaining patient care records and communicating updates to the family."
+      }
+    ],
+    "serviceInformation": {
+      "duration": [
+        "Hourly",
+        "12-Hour Shift",
+        "24-Hour Shift"
+      ],
+      "availability": "7 Days a Week, 24×7",
+      "coverageArea": [
+        "Noida",
+        "Greater Noida",
+        "Delhi",
+        "Ghaziabad",
+        "Gurugram",
+        "Faridabad",
+        "Delhi NCR"
+      ]
+    },
+    "tags": [
+      "registered-nurse",
+      "gnm",
+      "bsc-nursing",
+      "home-nursing"
+    ],
+    "relatedServices": [
+      "skilled-nursing-care",
+      "24x7-home-nursing-care"
+    ],
+    "pricing": {
+      "originalPrice": null,
+      "discountedPrice": null,
+      "currency": "INR"
+    }
+  },
+  {
+    "id": "semi-nurse-services",
+    "name": "Semi Nurse Services",
+    "image": "/assets/services/semi-nurse-services.jpg",
+    "category": "Core Home Nursing",
+    "serviceType": "Nursing Staffing",
+    "staffType": [
+      "Semi-Nurse"
+    ],
+    "content": {
+      "summary": "Trained semi-nursing staff providing basic patient care, routine monitoring, and daily assistance at home.",
+      "details": [
+        "Semi-nurse services are suitable for patients who require regular assistance and basic nursing support but do not require continuous registered nurse supervision.",
+        "Services are provided according to the patient's care requirements and family instructions."
+      ]
+    },
+    "serviceScope": [
+      {
+        "icon": "Activity",
+        "title": "Basic Monitoring",
+        "description": "Routine monitoring of basic health parameters."
+      },
+      {
+        "icon": "Users",
+        "title": "Patient Assistance",
+        "description": "Support with mobility, hygiene, feeding, and daily activities."
+      },
+      {
+        "icon": "Pill",
+        "title": "Medication Assistance",
+        "description": "Assistance with prescribed medication routines according to the care plan."
+      },
+      {
+        "icon": "Heart",
+        "title": "Patient Comfort",
+        "description": "Day-to-day support and companionship for patients at home."
+      }
+    ],
+    "serviceInformation": {
+      "duration": [
+        "12-Hour Shift",
+        "24-Hour Shift"
+      ],
+      "availability": "7 Days a Week, 24×7",
+      "coverageArea": [
+        "Noida",
+        "Greater Noida",
+        "Delhi",
+        "Ghaziabad",
+        "Gurugram",
+        "Faridabad",
+        "Delhi NCR"
+      ]
+    },
+    "tags": [
+      "semi-nurse",
+      "patient-care",
+      "home-care"
+    ],
+    "relatedServices": [
+      "elderly-bedridden-care",
+      "registered-nurses"
+    ],
+    "pricing": {
+      "originalPrice": null,
+      "discountedPrice": null,
+      "currency": "INR"
+    }
+  },
+  {
+    "id": "gda-caregiver-patient-attendant",
+    "name": "GDA / Caregiver / Patient Attendant",
+    "image": "/assets/services/gda-caregiver-patient-attendant.jpg",
+    "category": "Core Home Nursing",
+    "serviceType": "Patient Assistance",
+    "staffType": [
+      "GDA",
+      "Caregiver",
+      "Patient Attendant"
+    ],
+    "content": {
+      "summary": "Trained caregivers and patient attendants providing daily living assistance, mobility support, hygiene care, and companionship.",
+      "details": [
+        "Our GDAs and patient attendants support elderly, bedridden, recovering, and dependent patients with their everyday needs.",
+        "The focus is on patient comfort, safety, hygiene, mobility, and consistent companionship."
+      ]
+    },
+    "serviceScope": [
+      {
+        "icon": "Users",
+        "title": "Daily Living Assistance",
+        "description": "Assistance with bathing, feeding, dressing, and personal hygiene."
+      },
+      {
+        "icon": "Footprints",
+        "title": "Mobility Assistance",
+        "description": "Support with walking, transfers, positioning, and movement."
+      },
+      {
+        "icon": "Heart",
+        "title": "Companionship",
+        "description": "Friendly and compassionate support to reduce isolation."
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Routine Care",
+        "description": "Support with daily routines, hydration, nutrition, and basic observation."
+      }
+    ],
+    "serviceInformation": {
+      "duration": [
+        "12-Hour Shift",
+        "24-Hour Shift"
+      ],
+      "availability": "7 Days a Week, 24×7",
+      "coverageArea": [
+        "Noida",
+        "Greater Noida",
+        "Delhi",
+        "Ghaziabad",
+        "Gurugram",
+        "Faridabad",
+        "Delhi NCR"
+      ]
+    },
+    "tags": [
+      "gda",
+      "caregiver",
+      "patient-attendant",
+      "elderly-care"
+    ],
+    "relatedServices": [
+      "elderly-bedridden-care",
+      "stroke-paralysis-care",
+      "palliative-care"
+    ],
+    "pricing": {
+      "originalPrice": null,
+      "discountedPrice": null,
+      "currency": "INR"
+    }
+  },
+
+  {
+    "id": "elderly-care",
+    "name": "Elderly Care",
+    "image": "/assets/services/elderly-care.jpg",
+    "category": "Patient & Condition Specific Care",
+    "serviceType": "Elderly Care",
+    "staffType": [
+      "GDA",
+      "Caregiver",
+      "Patient Attendant",
+      "Registered Nurse"
+    ],
+    "content": {
+      "summary": "Compassionate home-based care for elderly patients focused on safety, comfort, daily living, and overall wellbeing.",
+      "details": [
+        "Our elderly care services provide dependable support for seniors who need assistance with daily activities, mobility, medication routines, and companionship.",
+        "Families receive regular updates so they can remain informed about the wellbeing of their loved ones."
+      ]
+    },
+    "serviceScope": [
+      {
+        "icon": "Users",
+        "title": "Daily Living Assistance",
+        "description": "Help with bathing, dressing, feeding, and personal hygiene."
+      },
+      {
+        "icon": "Footprints",
+        "title": "Mobility Support",
+        "description": "Assistance with walking, transfers, and safe movement."
+      },
+      {
+        "icon": "Heart",
+        "title": "Companionship",
+        "description": "Compassionate companionship and emotional support."
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Routine Health Tracking",
+        "description": "Monitoring of basic health, hydration, nutrition, and daily routines."
+      }
+    ],
+    "serviceInformation": {
+      "duration": [
+        "12-Hour Shift",
+        "24-Hour Shift"
+      ],
+      "availability": "7 Days a Week, 24×7",
+      "coverageArea": [
+        "Noida",
+        "Greater Noida",
+        "Delhi",
+        "Ghaziabad",
+        "Gurugram",
+        "Faridabad",
+        "Delhi NCR"
+      ]
+    },
+    "tags": [
+      "elderly-care",
+      "senior-care",
+      "home-care",
+      "caregiver"
+    ],
+    "relatedServices": [
+      "elderly-bedridden-care",
+      "gda-caregiver-patient-attendant",
+      "palliative-care"
+    ],
+    "pricing": {
+      "originalPrice": null,
+      "discountedPrice": null,
+      "currency": "INR"
+    }
+  },
+
+  {
+    "id": "elderly-bedridden-care",
+    "name": "Bedridden Patient Care",
+    "image": "/assets/services/elderly-bedridden-care.jpg",
+    "category": "Patient & Condition Specific Care",
+    "serviceType": "Bedridden Patient Care",
+    "staffType": [
+      "GDA",
+      "Caregiver",
+      "Patient Attendant",
+      "Registered Nurse"
+    ],
+    "content": {
+      "summary": "Dedicated day-to-day support for bedridden patients with assistance for hygiene, feeding, positioning, mobility, and comfort.",
+      "details": [
+        "Long-term bedridden care requires consistency, patience, and proper patient handling. Our caregivers provide structured support designed around the patient's daily needs.",
+        "Care focuses on comfort, hygiene, nutrition, mobility, and prevention of complications associated with prolonged immobility."
+      ]
+    },
+    "serviceScope": [
+      {
+        "icon": "Users",
+        "title": "Daily Living Assistance",
+        "description": "Help with bathing, feeding, dressing, hygiene, and personal care."
+      },
+      {
+        "icon": "Bandage",
+        "title": "Bed Sore Prevention",
+        "description": "Regular repositioning and skin care to help prevent pressure sores."
+      },
+      {
+        "icon": "Activity",
+        "title": "Routine Monitoring",
+        "description": "Observation of basic health, hydration, nutrition, and comfort."
+      },
+      {
+        "icon": "Heart",
+        "title": "Comfort & Companionship",
+        "description": "Emotional support and consistent patient companionship."
+      }
+    ],
+    "serviceInformation": {
+      "duration": [
+        "12-Hour Shift",
+        "24-Hour Shift"
+      ],
+      "availability": "7 Days a Week, 24×7",
+      "coverageArea": [
+        "Noida",
+        "Greater Noida",
+        "Delhi",
+        "Ghaziabad",
+        "Gurugram",
+        "Faridabad",
+        "Delhi NCR"
+      ]
+    },
+    "tags": [
+      "bedridden-care",
+      "elderly-care",
+      "patient-care",
+      "caregiver"
+    ],
+    "relatedServices": [
+      "bed-sore-management",
+      "elderly-care",
+      "gda-caregiver-patient-attendant",
+      "stroke-paralysis-care"
+    ],
+    "pricing": {
+      "originalPrice": 1500,
+      "discountedPrice": 1250,
+      "currency": "INR"
+    }
+  },
+
+  {
+    "id": "post-operative-care",
+    "name": "Post-Operative Care",
+    "image": "/assets/services/post-operative-care.jpg",
+    "category": "Patient & Condition Specific Care",
+    "serviceType": "Recovery Care",
+    "staffType": [
+      "Registered Nurse (GNM)",
+      "Registered Nurse (B.Sc. Nursing)"
+    ],
+    "content": {
+      "summary": "Professional wound management, vital monitoring, pain management, and mobility assistance during recovery after surgery.",
+      "details": [
+        "The days and weeks after surgery are critical for a smooth recovery. Our nurses monitor surgical wounds, follow prescribed medication schedules, and support safe mobility.",
+        "Care is coordinated with the operating surgeon's post-operative instructions."
+      ]
+    },
+    "serviceScope": [
+      {
+        "icon": "Bandage",
+        "title": "Wound Management",
+        "description": "Sterile dressing changes and surgical wound monitoring."
+      },
+      {
+        "icon": "Activity",
+        "title": "Vital Monitoring",
+        "description": "Regular monitoring to identify potential post-surgical complications."
+      },
+      {
+        "icon": "Pill",
+        "title": "Pain Management",
+        "description": "Administration of prescribed pain medication and treatment."
+      },
+      {
+        "icon": "Footprints",
+        "title": "Guided Mobility",
+        "description": "Safe mobility assistance during the recovery period."
+      }
+    ],
+    "serviceInformation": {
+      "duration": [
+        "12-Hour Shift",
+        "24-Hour Shift"
+      ],
+      "availability": "7 Days a Week, 24×7",
+      "coverageArea": [
+        "Noida",
+        "Greater Noida",
+        "Delhi",
+        "Ghaziabad",
+        "Gurugram",
+        "Faridabad",
+        "Delhi NCR"
+      ]
+    },
+    "tags": [
+      "post-operative",
+      "surgery-care",
+      "wound-care",
+      "recovery"
+    ],
+    "relatedServices": [
+      "skilled-nursing-care",
+      "wound-dressing",
+      "physiotherapy-at-home"
+    ],
+    "pricing": {
+      "originalPrice": 1950,
+      "discountedPrice": 1650,
+      "currency": "INR"
+    }
+  },
+
+  {
+    "id": "stroke-paralysis-care",
+    "name": "Stroke & Paralysis Patient Care",
+    "image": "/assets/services/stroke-paralysis-care.jpg",
+    "category": "Patient & Condition Specific Care",
+    "serviceType": "Neurological Care",
+    "staffType": [
+      "Semi-Nurse",
+      "GDA",
+      "Patient Attendant",
+      "Registered Nurse"
+    ],
+    "content": {
+      "summary": "Dedicated care for stroke and paralysis patients focused on daily assistance, positioning, complication prevention, and rehabilitation support.",
+      "details": [
+        "Recovery from stroke or living with paralysis requires specialized handling techniques and a consistent daily routine.",
+        "Care plans focus on preventing secondary complications while supporting achievable mobility and independence."
+      ]
+    },
+    "serviceScope": [
+      {
+        "icon": "Footprints",
+        "title": "Rehabilitation Support",
+        "description": "Assistance with prescribed rehabilitation routines coordinated with physiotherapy."
+      },
+      {
+        "icon": "Bandage",
+        "title": "Bed Sore Prevention",
+        "description": "Careful positioning and skin care for patients with limited mobility."
+      },
+      {
+        "icon": "Users",
+        "title": "Daily Living Assistance",
+        "description": "Assistance with feeding, hygiene, dressing, and mobility."
+      },
+      {
+        "icon": "HeartPulse",
+        "title": "Health Tracking",
+        "description": "Monitoring of basic health parameters and changes in condition."
+      }
+    ],
+    "serviceInformation": {
+      "duration": [
+        "12-Hour Shift",
+        "24-Hour Shift"
+      ],
+      "availability": "7 Days a Week, 24×7",
+      "coverageArea": [
+        "Noida",
+        "Greater Noida",
+        "Delhi",
+        "Ghaziabad",
+        "Gurugram",
+        "Faridabad",
+        "Delhi NCR"
+      ]
+    },
+    "tags": [
+      "stroke-care",
+      "paralysis-care",
+      "neuro-care",
+      "patient-care"
+    ],
+    "relatedServices": [
+      "physiotherapy-at-home",
+      "bed-sore-management",
+      "elderly-bedridden-care"
+    ],
+    "pricing": {
+      "originalPrice": 1750,
+      "discountedPrice": 1500,
+      "currency": "INR"
+    }
+  },
+
+  {
+    "id": "palliative-care",
+    "name": "Palliative & End-of-Life Care",
+    "image": "/assets/services/palliative-care.jpg",
+    "category": "Patient & Condition Specific Care",
+    "serviceType": "Palliative Care",
+    "staffType": [
+      "Registered Nurse",
+      "GDA",
+      "Caregiver"
+    ],
+    "content": {
+      "summary": "Comfort-focused and compassionate care for patients with serious or terminal illness, prioritizing dignity, symptom management, and family support.",
+      "details": [
+        "Palliative care focuses on comfort, symptom management, dignity, and quality of life for patients with serious or terminal illnesses.",
+        "Our team supports both patients and families throughout the care journey."
+      ]
+    },
+    "serviceScope": [
+      {
+        "icon": "Pill",
+        "title": "Pain & Symptom Management",
+        "description": "Consistent management of pain and symptoms according to the prescribed care plan."
+      },
+      {
+        "icon": "Heart",
+        "title": "Emotional Support",
+        "description": "Compassionate support for patients and family members."
+      },
+      {
+        "icon": "Bandage",
+        "title": "Comfort Nursing",
+        "description": "Skin care, positioning, hygiene, and comfort-focused nursing."
+      },
+      {
+        "icon": "Users",
+        "title": "Continuous Presence",
+        "description": "Consistent caregiver presence when round-the-clock support is required."
+      }
+    ],
+    "serviceInformation": {
+      "duration": [
+        "12-Hour Shift",
+        "24-Hour Shift"
+      ],
+      "availability": "7 Days a Week, 24×7",
+      "coverageArea": [
+        "Noida",
+        "Greater Noida",
+        "Delhi",
+        "Ghaziabad",
+        "Gurugram",
+        "Faridabad",
+        "Delhi NCR"
+      ]
+    },
+    "tags": [
+      "palliative-care",
+      "end-of-life-care",
+      "comfort-care",
+      "elderly-care"
+    ],
+    "relatedServices": [
+      "elderly-care",
+      "elderly-bedridden-care",
+      "skilled-nursing-care"
+    ],
+    "pricing": {
+      "originalPrice": 2800,
+      "discountedPrice": 2450,
+      "currency": "INR"
+    }
+  },
+
+  {
+    "id": "newborn-baby-care",
+    "name": "Newborn Baby Care",
+    "image": "/assets/services/newborn-baby-care.jpg",
+    "category": "Patient & Condition Specific Care",
+    "serviceType": "Newborn Care",
+    "staffType": [
+      "Trained Newborn Care Attendant"
+    ],
+    "content": {
+      "summary": "Trained newborn care specialists supporting new mothers with feeding, hygiene, bathing, and daily newborn care at home.",
+      "details": [
+        "Our newborn care attendants support families during the first crucial weeks at home.",
+        "Care focuses on safe newborn handling, feeding support, hygiene, bathing, sleep routines, and general wellbeing."
+      ]
+    },
+    "serviceScope": [
+      {
+        "icon": "Baby",
+        "title": "Feeding Support",
+        "description": "Support with breastfeeding routines and safe bottle-feeding practices."
+      },
+      {
+        "icon": "Droplet",
+        "title": "Bathing & Hygiene",
+        "description": "Safe newborn bathing, cord care, and daily hygiene routines."
+      },
+      {
+        "icon": "Moon",
+        "title": "Sleep Support",
+        "description": "Assistance with establishing consistent newborn sleep routines."
+      },
+      {
+        "icon": "HeartPulse",
+        "title": "General Monitoring",
+        "description": "Observation of temperature, feeding, weight, and general wellbeing."
+      }
+    ],
+    "serviceInformation": {
+      "duration": [
+        "12-Hour Shift",
+        "24-Hour Shift"
+      ],
+      "availability": "7 Days a Week",
+      "coverageArea": [
+        "Noida",
+        "Greater Noida",
+        "Delhi",
+        "Ghaziabad",
+        "Gurugram",
+        "Faridabad",
+        "Delhi NCR"
+      ]
+    },
+    "tags": [
+      "newborn",
+      "baby-care",
+      "newborn-care",
+      "mother-care"
+    ],
+    "relatedServices": [
+      "gda-caregiver-patient-attendant",
+      "registered-nurses"
+    ],
+    "pricing": {
+      "originalPrice": 1750,
+      "discountedPrice": 1500,
+      "currency": "INR"
+    }
+  },
+
+  {
+    "id": "tracheostomy-care",
+    "name": "Tracheostomy Care",
+    "image": "/assets/services/tracheostomy-care.jpg",
+    "category": "Clinical Procedures",
+    "serviceType": "Respiratory Care",
+    "staffType": [
+      "Registered Nurse",
+      "ICU-Trained Registered Nurse"
+    ],
+    "content": {
+      "summary": "Professional tracheostomy care at home to maintain airway hygiene and support safe respiratory management.",
+      "details": [
+        "Our trained nursing staff provide tracheostomy site care, tube care, monitoring, and suction support according to the patient's prescribed care plan."
+      ]
+    },
+    "serviceScope": [
+      {
+        "icon": "Stethoscope",
+        "title": "Tracheostomy Site Care",
+        "description": "Routine cleaning and care of the tracheostomy site."
+      },
+      {
+        "icon": "Wind",
+        "title": "Airway Monitoring",
+        "description": "Monitoring respiratory status and airway condition."
+      },
+      {
+        "icon": "Activity",
+        "title": "Clinical Observation",
+        "description": "Observation for changes that may require medical escalation."
+      }
+    ],
+    "serviceInformation": {
+      "duration": [
+        "Hourly",
+        "12-Hour Shift",
+        "24-Hour Shift"
+      ],
+      "availability": "7 Days a Week, 24×7",
+      "coverageArea": [
+        "Noida",
+        "Greater Noida",
+        "Delhi",
+        "Ghaziabad",
+        "Gurugram",
+        "Faridabad",
+        "Delhi NCR"
+      ]
+    },
+    "tags": [
+      "tracheostomy",
+      "airway-care",
+      "respiratory-care",
+      "clinical-procedure"
+    ],
+    "relatedServices": [
+      "suction-care",
+      "ventilator-support",
+      "icu-care-at-home"
+    ],
+    "pricing": {
+      "originalPrice": null,
+      "discountedPrice": null,
+      "currency": "INR"
+    }
+  },
+
+  {
+    "id": "colostomy-care",
+    "name": "Colostomy Care",
+    "image": "/assets/services/colostomy-care.jpg",
+    "category": "Clinical Procedures",
+    "serviceType": "Stoma Care",
+    "staffType": [
+      "Registered Nurse (GNM)",
+      "Registered Nurse (B.Sc. Nursing)"
+    ],
+    "content": {
+      "summary": "Professional home-based colostomy care focused on stoma hygiene, appliance management, and monitoring for complications.",
+      "details": [
+        "Our nursing staff provide routine colostomy care and support patients and families with proper hygiene, appliance changes, and stoma monitoring."
+      ]
+    },
+    "serviceScope": [
+      {
+        "icon": "Bandage",
+        "title": "Stoma Care",
+        "description": "Cleaning and routine care of the stoma site."
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Appliance Management",
+        "description": "Assistance with colostomy bag changes and proper fitting."
+      },
+      {
+        "icon": "Activity",
+        "title": "Stoma Monitoring",
+        "description": "Monitoring for irritation, leakage, or other changes requiring attention."
+      }
+    ],
+    "serviceInformation": {
+      "duration": [
+        "Hourly",
+        "As Required"
+      ],
+      "availability": "7 Days a Week",
+      "coverageArea": [
+        "Noida",
+        "Greater Noida",
+        "Delhi",
+        "Ghaziabad",
+        "Gurugram",
+        "Faridabad",
+        "Delhi NCR"
+      ]
+    },
+    "tags": [
+      "colostomy",
+      "stoma-care",
+      "clinical-procedure",
+      "nursing"
+    ],
+    "relatedServices": [
+      "skilled-nursing-care",
+      "wound-dressing"
+    ],
+    "pricing": {
+      "originalPrice": null,
+      "discountedPrice": null,
+      "currency": "INR"
+    }
+  },
+
+  {
+    "id": "catheter-care",
+    "name": "Catheter Care",
+    "image": "/assets/services/catheter-care.jpg",
+    "category": "Clinical Procedures",
+    "serviceType": "Catheter Care",
+    "staffType": [
+      "Registered Nurse",
+      "Semi-Nurse"
+    ],
+    "content": {
+      "summary": "Professional catheter care at home focused on hygiene, monitoring, and safe catheter management.",
+      "details": [
+        "Our trained nursing staff provide routine catheter care and monitoring to support patient comfort and reduce the risk of complications."
+      ]
+    },
+    "serviceScope": [
+      {
+        "icon": "Droplet",
+        "title": "Catheter Hygiene",
+        "description": "Routine cleaning and hygiene around the catheter site."
+      },
+      {
+        "icon": "Activity",
+        "title": "Urine Monitoring",
+        "description": "Monitoring urine output and changes that may require medical attention."
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Bag Management",
+        "description": "Proper handling and management of the urinary drainage system."
+      }
+    ],
+    "serviceInformation": {
+      "duration": [
+        "Hourly",
+        "As Required"
+      ],
+      "availability": "7 Days a Week, 24×7",
+      "coverageArea": [
+        "Noida",
+        "Greater Noida",
+        "Delhi",
+        "Ghaziabad",
+        "Gurugram",
+        "Faridabad",
+        "Delhi NCR"
+      ]
+    },
+    "tags": [
+      "catheter",
+      "urinary-care",
+      "clinical-procedure",
+      "nursing"
+    ],
+    "relatedServices": [
+      "skilled-nursing-care",
+      "elderly-bedridden-care"
+    ],
+    "pricing": {
+      "originalPrice": null,
+      "discountedPrice": null,
+      "currency": "INR"
+    }
+  },
+
+  {
+    "id": "ryles-tube-feeding",
+    "name": "Ryle's Tube (NG Tube) Feeding",
+    "image": "/assets/services/ryles-tube-feeding.jpg",
+    "category": "Clinical Procedures",
+    "serviceType": "Enteral Feeding",
+    "staffType": [
+      "Registered Nurse",
+      "ICU-Trained Registered Nurse"
+    ],
+    "content": {
+      "summary": "Professional Ryle's tube and nasogastric tube feeding support at home under prescribed medical and nutritional plans.",
+      "details": [
+        "Our nursing staff provide safe feeding assistance through an NG tube according to the patient's prescribed feeding schedule and instructions."
+      ]
+    },
+    "serviceScope": [
+      {
+        "icon": "Utensils",
+        "title": "Tube Feeding",
+        "description": "Administration of prescribed nutrition through the NG tube."
+      },
+      {
+        "icon": "Activity",
+        "title": "Tube Monitoring",
+        "description": "Monitoring tube condition and patient tolerance during feeding."
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Feeding Records",
+        "description": "Maintaining records of feeding schedules and patient response."
+      }
+    ],
+    "serviceInformation": {
+      "duration": [
+        "Per Visit",
+        "Hourly",
+        "12-Hour Shift",
+        "24-Hour Shift"
+      ],
+      "availability": "7 Days a Week, 24×7",
+      "coverageArea": [
+        "Noida",
+        "Greater Noida",
+        "Delhi",
+        "Ghaziabad",
+        "Gurugram",
+        "Faridabad",
+        "Delhi NCR"
+      ]
+    },
+    "tags": [
+      "ng-tube",
+      "ryles-tube",
+      "tube-feeding",
+      "enteral-feeding"
+    ],
+    "relatedServices": [
+      "peg-tube-feeding",
+      "skilled-nursing-care"
+    ],
+    "pricing": {
+      "originalPrice": null,
+      "discountedPrice": null,
+      "currency": "INR"
+    }
+  },
+
+  {
+    "id": "peg-tube-feeding",
+    "name": "PEG Tube Feeding",
+    "image": "/assets/services/peg-tube-feeding.jpg",
+    "category": "Clinical Procedures",
+    "serviceType": "Enteral Feeding",
+    "staffType": [
+      "Registered Nurse",
+      "ICU-Trained Registered Nurse"
+    ],
+    "content": {
+      "summary": "Professional PEG tube feeding and care at home for patients requiring long-term enteral nutrition.",
+      "details": [
+        "Our nurses assist with prescribed PEG feeding routines while monitoring the tube site and patient's tolerance."
+      ]
+    },
+    "serviceScope": [
+      {
+        "icon": "Utensils",
+        "title": "PEG Feeding",
+        "description": "Administration of prescribed nutrition through the PEG tube."
+      },
+      {
+        "icon": "Bandage",
+        "title": "Tube Site Care",
+        "description": "Routine cleaning and monitoring of the PEG tube site."
+      },
+      {
+        "icon": "Activity",
+        "title": "Patient Monitoring",
+        "description": "Monitoring feeding tolerance and general patient condition."
+      }
+    ],
+    "serviceInformation": {
+      "duration": [
+        "Per Visit",
+        "Hourly",
+        "12-Hour Shift",
+        "24-Hour Shift"
+      ],
+      "availability": "7 Days a Week, 24×7",
+      "coverageArea": [
+        "Noida",
+        "Greater Noida",
+        "Delhi",
+        "Ghaziabad",
+        "Gurugram",
+        "Faridabad",
+        "Delhi NCR"
+      ]
+    },
+    "tags": [
+      "peg-tube",
+      "tube-feeding",
+      "enteral-feeding",
+      "nursing"
+    ],
+    "relatedServices": [
+      "ryles-tube-feeding",
+      "skilled-nursing-care"
+    ],
+    "pricing": {
+      "originalPrice": null,
+      "discountedPrice": null,
+      "currency": "INR"
+    }
+  },
+
+  {
+    "id": "wound-dressing",
+    "name": "Wound Dressing",
+    "image": "/assets/services/wound-dressing.jpg",
+    "category": "Clinical Procedures",
+    "serviceType": "Wound Care",
+    "staffType": [
+      "Registered Nurse (GNM)",
+      "Registered Nurse (B.Sc. Nursing)"
+    ],
+    "content": {
+      "summary": "Professional wound dressing and wound management at home using appropriate sterile techniques.",
+      "details": [
+        "Our nursing staff provide dressing changes and wound monitoring for surgical wounds, chronic wounds, and other wounds requiring regular care."
+      ]
+    },
+    "serviceScope": [
+      {
+        "icon": "Bandage",
+        "title": "Dressing Changes",
+        "description": "Regular sterile dressing changes according to the prescribed care plan."
+      },
+      {
+        "icon": "Activity",
+        "title": "Wound Monitoring",
+        "description": "Monitoring wound condition and changes during recovery."
+      },
+      {
+        "icon": "ShieldCheck",
+        "title": "Infection Prevention",
+        "description": "Use of appropriate hygiene and sterile techniques during wound care."
+      }
+    ],
+    "serviceInformation": {
+      "duration": [
+        "Per Visit",
+        "As Required"
+      ],
+      "availability": "7 Days a Week",
+      "coverageArea": [
+        "Noida",
+        "Greater Noida",
+        "Delhi",
+        "Ghaziabad",
+        "Gurugram",
+        "Faridabad",
+        "Delhi NCR"
+      ]
+    },
+    "tags": [
+      "wound-care",
+      "wound-dressing",
+      "dressing",
+      "nursing"
+    ],
+    "relatedServices": [
+      "bed-sore-management",
+      "post-operative-care",
+      "skilled-nursing-care"
+    ],
+    "pricing": {
+      "originalPrice": null,
+      "discountedPrice": null,
+      "currency": "INR"
+    }
+  },
+
+  {
+    "id": "bed-sore-management",
+    "name": "Bed Sore Management",
+    "image": "/assets/services/bed-sore-management.jpg",
+    "category": "Clinical Procedures",
+    "serviceType": "Pressure Sore Care",
+    "staffType": [
+      "Registered Nurse",
+      "GDA",
+      "Patient Attendant"
+    ],
+    "content": {
+      "summary": "Comprehensive prevention and management support for pressure sores in bedridden and immobile patients.",
+      "details": [
+        "Our care team focuses on regular repositioning, skin care, wound dressing, and maintaining patient comfort to help prevent and manage pressure sores."
+      ]
+    },
+    "serviceScope": [
+      {
+        "icon": "RefreshCw",
+        "title": "Repositioning",
+        "description": "Regular patient repositioning according to the prescribed care schedule."
+      },
+      {
+        "icon": "Bandage",
+        "title": "Wound Care",
+        "description": "Dressing and monitoring of existing pressure sores."
+      },
+      {
+        "icon": "ShieldCheck",
+        "title": "Skin Care",
+        "description": "Regular skin inspection and hygiene to help prevent further breakdown."
+      }
+    ],
+    "serviceInformation": {
+      "duration": [
+        "Hourly",
+        "12-Hour Shift",
+        "24-Hour Shift"
+      ],
+      "availability": "7 Days a Week, 24×7",
+      "coverageArea": [
+        "Noida",
+        "Greater Noida",
+        "Delhi",
+        "Ghaziabad",
+        "Gurugram",
+        "Faridabad",
+        "Delhi NCR"
+      ]
+    },
+    "tags": [
+      "bed-sore",
+      "pressure-sore",
+      "wound-care",
+      "bedridden-care"
+    ],
+    "relatedServices": [
+      "elderly-bedridden-care",
+      "wound-dressing",
+      "stroke-paralysis-care"
+    ],
+    "pricing": {
+      "originalPrice": null,
+      "discountedPrice": null,
+      "currency": "INR"
+    }
+  },
+
+  {
+    "id": "iv-infusion-injection",
+    "name": "IV Infusion & Injection",
+    "image": "/assets/services/iv-infusion-injection.jpg",
+    "category": "Clinical Procedures",
+    "serviceType": "IV & Injection Therapy",
+    "staffType": [
+      "Registered Nurse (GNM)",
+      "Registered Nurse (B.Sc. Nursing)"
+    ],
+    "content": {
+      "summary": "Professional IV infusion and injection administration at home as prescribed by a qualified medical practitioner.",
+      "details": [
+        "Our registered nurses provide prescribed IV infusions and injections while following appropriate clinical and safety protocols."
+      ]
+    },
+    "serviceScope": [
+      {
+        "icon": "Syringe",
+        "title": "Injection Administration",
+        "description": "Administration of prescribed injections by qualified nursing staff."
+      },
+      {
+        "icon": "Droplet",
+        "title": "IV Infusion",
+        "description": "Administration and monitoring of prescribed IV fluids or medications."
+      },
+      {
+        "icon": "Activity",
+        "title": "Patient Monitoring",
+        "description": "Monitoring the patient during and after the procedure."
+      }
+    ],
+    "serviceInformation": {
+      "duration": [
+        "Per Visit",
+        "As Required"
+      ],
+      "availability": "7 Days a Week",
+      "coverageArea": [
+        "Noida",
+        "Greater Noida",
+        "Delhi",
+        "Ghaziabad",
+        "Gurugram",
+        "Faridabad",
+        "Delhi NCR"
+      ]
+    },
+    "tags": [
+      "iv",
+      "injection",
+      "iv-infusion",
+      "nursing"
+    ],
+    "relatedServices": [
+      "registered-nurses",
+      "skilled-nursing-care"
+    ],
+    "pricing": {
+      "originalPrice": null,
+      "discountedPrice": null,
+      "currency": "INR"
+    }
+  },
+
+  {
+    "id": "oxygen-therapy",
+    "name": "Oxygen Therapy",
+    "image": "/assets/services/oxygen-therapy.jpg",
+    "category": "Clinical Procedures",
+    "serviceType": "Respiratory Care",
+    "staffType": [
+      "Registered Nurse",
+      "ICU-Trained Registered Nurse"
+    ],
+    "content": {
+      "summary": "Home oxygen therapy support for patients requiring supplemental oxygen as prescribed by their treating doctor.",
+      "details": [
+        "Our team assists with prescribed oxygen therapy and monitors the patient's oxygen saturation and general respiratory condition."
+      ]
+    },
+    "serviceScope": [
+      {
+        "icon": "Wind",
+        "title": "Oxygen Support",
+        "description": "Support with prescribed supplemental oxygen therapy."
+      },
+      {
+        "icon": "Activity",
+        "title": "Oxygen Monitoring",
+        "description": "Monitoring oxygen saturation and respiratory condition."
+      },
+      {
+        "icon": "HeartPulse",
+        "title": "Patient Observation",
+        "description": "Observation for changes in respiratory status."
+      }
+    ],
+    "serviceInformation": {
+      "duration": [
+        "Hourly",
+        "12-Hour Shift",
+        "24-Hour Shift"
+      ],
+      "availability": "7 Days a Week, 24×7",
+      "coverageArea": [
+        "Noida",
+        "Greater Noida",
+        "Delhi",
+        "Ghaziabad",
+        "Gurugram",
+        "Faridabad",
+        "Delhi NCR"
+      ]
+    },
+    "tags": [
+      "oxygen",
+      "oxygen-therapy",
+      "respiratory-care",
+      "home-care"
+    ],
+    "relatedServices": [
+      "icu-care-at-home",
+      "ventilator-support",
+      "bipap-cpap-support"
+    ],
+    "pricing": {
+      "originalPrice": null,
+      "discountedPrice": null,
+      "currency": "INR"
+    }
+  },
+
+  {
+    "id": "nebulization",
+    "name": "Nebulization",
+    "image": "/assets/services/nebulization.jpg",
+    "category": "Clinical Procedures",
+    "serviceType": "Respiratory Care",
+    "staffType": [
+      "Registered Nurse",
+      "Semi-Nurse"
+    ],
+    "content": {
+      "summary": "Professional nebulization assistance at home for patients requiring prescribed inhaled respiratory medication.",
+      "details": [
+        "Our nursing staff assist patients with prescribed nebulization therapy while monitoring their response during the procedure."
+      ]
+    },
+    "serviceScope": [
+      {
+        "icon": "Wind",
+        "title": "Nebulization Therapy",
+        "description": "Administration of prescribed nebulized medication."
+      },
+      {
+        "icon": "Activity",
+        "title": "Respiratory Monitoring",
+        "description": "Monitoring the patient's respiratory condition during treatment."
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Equipment Support",
+        "description": "Assistance with proper nebulizer setup and cleaning."
+      }
+    ],
+    "serviceInformation": {
+      "duration": [
+        "Per Visit"
+      ],
+      "availability": "7 Days a Week",
+      "coverageArea": [
+        "Noida",
+        "Greater Noida",
+        "Delhi",
+        "Ghaziabad",
+        "Gurugram",
+        "Faridabad",
+        "Delhi NCR"
+      ]
+    },
+    "tags": [
+      "nebulization",
+      "respiratory-care",
+      "breathing-support"
+    ],
+    "relatedServices": [
+      "oxygen-therapy",
+      "suction-care"
+    ],
+    "pricing": {
+      "originalPrice": null,
+      "discountedPrice": null,
+      "currency": "INR"
+    }
+  },
+
+  {
+    "id": "suction-care",
+    "name": "Suction Care",
+    "image": "/assets/services/suction-care.jpg",
+    "category": "Clinical Procedures",
+    "serviceType": "Respiratory Care",
+    "staffType": [
+      "Registered Nurse",
+      "ICU-Trained Registered Nurse"
+    ],
+    "content": {
+      "summary": "Professional airway suction care at home for patients who require assistance in clearing respiratory secretions.",
+      "details": [
+        "Our trained nursing staff provide suction care according to the patient's prescribed respiratory care plan, particularly for patients with tracheostomy or reduced ability to clear secretions."
+      ]
+    },
+    "serviceScope": [
+      {
+        "icon": "Wind",
+        "title": "Airway Suction",
+        "description": "Professional suctioning to assist with clearing airway secretions."
+      },
+      {
+        "icon": "Activity",
+        "title": "Respiratory Monitoring",
+        "description": "Monitoring oxygen saturation and respiratory condition."
+      },
+      {
+        "icon": "Stethoscope",
+        "title": "Tracheostomy Support",
+        "description": "Suction support for patients with tracheostomy as prescribed."
+      }
+    ],
+    "serviceInformation": {
+      "duration": [
+        "Per Visit",
+        "Hourly",
+        "12-Hour Shift",
+        "24-Hour Shift"
+      ],
+      "availability": "7 Days a Week, 24×7",
+      "coverageArea": [
+        "Noida",
+        "Greater Noida",
+        "Delhi",
+        "Ghaziabad",
+        "Gurugram",
+        "Faridabad",
+        "Delhi NCR"
+      ]
+    },
+    "tags": [
+      "suction",
+      "airway-care",
+      "respiratory-care",
+      "tracheostomy"
+    ],
+    "relatedServices": [
+      "tracheostomy-care",
+      "ventilator-support",
+      "icu-care-at-home"
+    ],
+    "pricing": {
+      "originalPrice": null,
+      "discountedPrice": null,
+      "currency": "INR"
+    }
+  },
+
+  {
+    "id": "ventilator-support",
+    "name": "Ventilator Support",
+    "image": "/assets/services/ventilator-support.jpg",
+    "category": "Clinical Procedures",
+    "serviceType": "Critical Respiratory Care",
+    "staffType": [
+      "ICU-Trained Registered Nurse"
+    ],
+    "content": {
+      "summary": "Professional home-based ventilator support managed by ICU-trained nursing staff for patients requiring mechanical respiratory support.",
+      "details": [
+        "Our ICU-trained nursing team provides continuous monitoring and routine ventilator-related patient care according to the prescribed medical plan.",
+        "The service is intended for patients whose treating medical team has determined that home ventilatory support is appropriate."
+      ]
+    },
+    "serviceScope": [
+      {
+        "icon": "Wind",
+        "title": "Ventilator Management",
+        "description": "Routine management and monitoring of prescribed ventilator support."
+      },
+      {
+        "icon": "Activity",
+        "title": "Continuous Monitoring",
+        "description": "Monitoring vital signs, oxygen saturation, and respiratory status."
+      },
+      {
+        "icon": "Stethoscope",
+        "title": "Airway Care",
+        "description": "Support with airway and tracheostomy care when required."
+      },
+      {
+        "icon": "ShieldAlert",
+        "title": "Emergency Escalation",
+        "description": "Rapid escalation to the treating medical team in case of concerning changes."
+      }
+    ],
+    "serviceInformation": {
+      "duration": [
+        "24-Hour Shift"
+      ],
+      "availability": "7 Days a Week, 24×7",
+      "coverageArea": [
+        "Noida",
+        "Greater Noida",
+        "Delhi",
+        "Ghaziabad",
+        "Gurugram",
+        "Faridabad",
+        "Delhi NCR"
+      ]
+    },
+    "tags": [
+      "ventilator",
+      "mechanical-ventilation",
+      "icu",
+      "critical-care"
+    ],
+    "relatedServices": [
+      "icu-care-at-home",
+      "icu-trained-nurses",
+      "tracheostomy-care",
+      "suction-care"
+    ],
+    "pricing": {
+      "originalPrice": null,
+      "discountedPrice": null,
+      "currency": "INR"
+    }
+  },
+
+  {
+    "id": "bipap-cpap-support",
+    "name": "BiPAP / CPAP Support",
+    "image": "/assets/services/bipap-cpap-support.jpg",
+    "category": "Clinical Procedures",
+    "serviceType": "Non-Invasive Respiratory Support",
+    "staffType": [
+      "ICU-Trained Registered Nurse",
+      "Registered Nurse"
+    ],
+    "content": {
+      "summary": "Professional home-based BiPAP and CPAP support with trained nursing supervision and respiratory monitoring.",
+      "details": [
+        "Our trained nursing staff assist patients using prescribed BiPAP or CPAP therapy and monitor their response and oxygen saturation."
+      ]
+    },
+    "serviceScope": [
+      {
+        "icon": "Wind",
+        "title": "BiPAP / CPAP Support",
+        "description": "Assistance with prescribed non-invasive respiratory support."
+      },
+      {
+        "icon": "Activity",
+        "title": "Oxygen Monitoring",
+        "description": "Monitoring oxygen saturation and respiratory status."
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Equipment Assistance",
+        "description": "Assistance with proper mask placement and equipment handling."
+      }
+    ],
+    "serviceInformation": {
+      "duration": [
+        "Hourly",
+        "12-Hour Shift",
+        "24-Hour Shift"
+      ],
+      "availability": "7 Days a Week, 24×7",
+      "coverageArea": [
+        "Noida",
+        "Greater Noida",
+        "Delhi",
+        "Ghaziabad",
+        "Gurugram",
+        "Faridabad",
+        "Delhi NCR"
+      ]
+    },
+    "tags": [
+      "bipap",
+      "cpap",
+      "respiratory-support",
+      "non-invasive-ventilation"
+    ],
+    "relatedServices": [
+      "icu-care-at-home",
+      "ventilator-support",
+      "oxygen-therapy"
+    ],
+    "pricing": {
+      "originalPrice": null,
+      "discountedPrice": null,
+      "currency": "INR"
+    }
+  },
+
+  {
+    "id": "physiotherapy-at-home",
+    "name": "Physiotherapy at Home",
+    "image": "/assets/services/physiotherapy-at-home.jpg",
+    "category": "Allied & Support Services",
+    "serviceType": "Physiotherapy",
+    "staffType": [
+      "Licensed Physiotherapist"
+    ],
+    "content": {
+      "summary": "In-home rehabilitation focused on restoring mobility, strength, balance, and function after injury, surgery, or illness.",
+      "details": [
+        "Our physiotherapists design personalized rehabilitation plans that can be performed safely at home.",
+        "Sessions are adjusted according to the patient's progress and treating doctor's recovery goals."
+      ]
+    },
+    "serviceScope": [
+      {
+        "icon": "Footprints",
+        "title": "Mobility Rehabilitation",
+        "description": "Exercises to improve strength, balance, mobility, and range of motion."
+      },
+      {
+        "icon": "Activity",
+        "title": "Progress Tracking",
+        "description": "Session-by-session monitoring of rehabilitation progress."
+      },
+      {
+        "icon": "Dumbbell",
+        "title": "Strength Recovery",
+        "description": "Targeted exercises for post-surgical and post-injury recovery."
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Personalized Care Plan",
+        "description": "Rehabilitation plans aligned with individual recovery goals."
+      }
+    ],
+    "serviceInformation": {
+      "duration": [
+        "45–60 Minute Session",
+        "Package"
+      ],
+      "availability": "7 Days a Week",
+      "coverageArea": [
+        "Noida",
+        "Greater Noida",
+        "Delhi",
+        "Ghaziabad",
+        "Gurugram",
+        "Faridabad",
+        "Delhi NCR"
+      ]
+    },
+    "tags": [
+      "physiotherapy",
+      "rehabilitation",
+      "mobility",
+      "recovery"
+    ],
+    "relatedServices": [
+      "post-operative-care",
+      "stroke-paralysis-care",
+      "elderly-bedridden-care"
+    ],
+    "pricing": {
+      "originalPrice": 1650,
+      "discountedPrice": 1400,
+      "currency": "INR"
+    }
+  },
+
+  {
+    "id": "doctor-visit-at-home",
+    "name": "Doctor Visit at Home",
+    "image": "/assets/services/doctor-visit-at-home.jpg",
+    "category": "Allied & Support Services",
+    "serviceType": "Doctor Consultation",
+    "staffType": [
+      "Qualified Medical Doctor"
+    ],
+    "content": {
+      "summary": "Convenient doctor consultations delivered at the patient's home for assessment, follow-up, and medical guidance.",
+      "details": [
+        "Home doctor visits allow patients who have difficulty travelling to receive professional medical assessment in the comfort of their home.",
+        "Doctors can evaluate the patient's condition, review ongoing treatment, and recommend appropriate follow-up."
+      ]
+    },
+    "serviceScope": [
+      {
+        "icon": "Stethoscope",
+        "title": "Home Consultation",
+        "description": "Medical assessment and consultation at the patient's home."
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Treatment Review",
+        "description": "Review of current treatment and medications."
+      },
+      {
+        "icon": "Activity",
+        "title": "Health Assessment",
+        "description": "Assessment of symptoms and overall health condition."
+      }
+    ],
+    "serviceInformation": {
+      "duration": [
+        "Per Visit"
+      ],
+      "availability": "By Appointment",
+      "coverageArea": [
+        "Noida",
+        "Greater Noida",
+        "Delhi NCR"
+      ]
+    },
+    "tags": [
+      "doctor",
+      "home-consultation",
+      "medical-consultation"
+    ],
+    "relatedServices": [
+      "skilled-nursing-care",
+      "physiotherapy-at-home"
+    ],
+    "pricing": {
+      "originalPrice": null,
+      "discountedPrice": null,
+      "currency": "INR"
+    }
+  },
+
+  {
+    "id": "medical-equipment-on-rent",
+    "name": "Medical Equipment on Rent",
+    "image": "/assets/services/medical-equipment-on-rent.jpg",
+    "category": "Allied & Support Services",
+    "serviceType": "Medical Equipment Rental",
+    "staffType": [
+      "Equipment Support Team"
+    ],
+    "content": {
+      "summary": "Convenient access to essential medical equipment for home-based patient care and recovery.",
+      "details": [
+        "We provide medical equipment rental options to support patients receiving care at home.",
+        "Equipment availability depends on the patient's requirements and current inventory."
+      ]
+    },
+    "serviceScope": [
+      {
+        "icon": "Bed",
+        "title": "Hospital Beds",
+        "description": "Home-use hospital and patient beds subject to availability."
+      },
+      {
+        "icon": "Wind",
+        "title": "Respiratory Equipment",
+        "description": "Respiratory support equipment based on patient requirements."
+      },
+      {
+        "icon": "Activity",
+        "title": "Monitoring Equipment",
+        "description": "Selected patient monitoring equipment for home use."
+      },
+      {
+        "icon": "Accessibility",
+        "title": "Mobility Equipment",
+        "description": "Selected mobility and patient assistance equipment."
+      }
+    ],
+    "serviceInformation": {
+      "duration": [
+        "Daily",
+        "Weekly",
+        "Monthly"
+      ],
+      "availability": "Subject to Equipment Availability",
+      "coverageArea": [
+        "Noida",
+        "Greater Noida",
+        "Delhi NCR"
+      ]
+    },
+    "tags": [
+      "medical-equipment",
+      "equipment-rental",
+      "hospital-bed",
+      "home-care"
+    ],
+    "relatedServices": [
+      "icu-care-at-home",
+      "ventilator-support",
+      "oxygen-therapy"
+    ],
+    "pricing": {
+      "originalPrice": null,
+      "discountedPrice": null,
+      "currency": "INR"
+    }
+  },
+
+  {
+    "id": "ambulance-service",
+    "name": "Ambulance Service",
+    "image": "/assets/services/ambulance-service.jpg",
+    "category": "Allied & Support Services",
+    "serviceType": "Patient Transportation",
+    "staffType": [
+      "Ambulance Team"
+    ],
+    "content": {
+      "summary": "Reliable ambulance transportation for patients requiring safe movement between home, hospitals, clinics, and healthcare facilities.",
+      "details": [
+        "Our ambulance coordination service helps arrange appropriate patient transportation based on the patient's medical and mobility requirements."
+      ]
+    },
+    "serviceScope": [
+      {
+        "icon": "Ambulance",
+        "title": "Patient Transportation",
+        "description": "Safe transportation between home and healthcare facilities."
+      },
+      {
+        "icon": "HeartPulse",
+        "title": "Medical Support",
+        "description": "Appropriate ambulance support based on patient requirements."
+      },
+      {
+        "icon": "Phone",
+        "title": "Rapid Coordination",
+        "description": "Assistance with arranging ambulance transportation when required."
+      }
+    ],
+    "serviceInformation": {
+      "duration": [
+        "Per Trip"
+      ],
+      "availability": "24×7",
+      "coverageArea": [
+        "Noida",
+        "Greater Noida",
+        "Delhi",
+        "Ghaziabad",
+        "Gurugram",
+        "Faridabad",
+        "Delhi NCR"
+      ]
+    },
+    "tags": [
+      "ambulance",
+      "patient-transport",
+      "medical-transport",
+      "emergency"
+    ],
+    "relatedServices": [
+      "icu-care-at-home",
+      "doctor-visit-at-home"
+    ],
+    "pricing": {
+      "originalPrice": null,
+      "discountedPrice": null,
+      "currency": "INR"
+    }
+  },
+
+  {
+    "id": "home-blood-sample-collection",
+    "name": "Home Blood Sample Collection",
+    "image": "/assets/services/home-blood-sample-collection.jpg",
+    "category": "Allied & Support Services",
+    "serviceType": "Diagnostic Support",
+    "staffType": [
+      "Trained Phlebotomist"
+    ],
+    "content": {
+      "summary": "Convenient blood sample collection from the comfort of your home with samples transported to an appropriate diagnostic laboratory.",
+      "details": [
+        "Our trained phlebotomy staff visit the patient's home for sample collection according to the prescribed diagnostic tests.",
+        "Testing and reports are provided by the associated diagnostic laboratory."
+      ]
+    },
+    "serviceScope": [
+      {
+        "icon": "Syringe",
+        "title": "Sample Collection",
+        "description": "Professional blood sample collection at home."
+      },
+      {
+        "icon": "ShieldCheck",
+        "title": "Safe Handling",
+        "description": "Proper sample handling and packaging for laboratory processing."
+      },
+      {
+        "icon": "Truck",
+        "title": "Laboratory Transfer",
+        "description": "Collected samples are transported to the appropriate diagnostic laboratory."
+      }
+    ],
+    "serviceInformation": {
+      "duration": [
+        "Per Visit"
+      ],
+      "availability": "By Appointment",
+      "coverageArea": [
+        "Noida",
+        "Greater Noida",
+        "Delhi NCR"
+      ]
+    },
+    "tags": [
+      "blood-test",
+      "sample-collection",
+      "diagnostics",
+      "home-collection"
+    ],
+    "relatedServices": [
+      "doctor-visit-at-home",
+      "skilled-nursing-care"
+    ],
+    "pricing": {
+      "originalPrice": null,
+      "discountedPrice": null,
+      "currency": "INR"
+    }
+  },
+
+  {
+    "id": "medicine-delivery",
+    "name": "Medicine Delivery",
+    "image": "/assets/services/medicine-delivery.jpg",
+    "category": "Allied & Support Services",
+    "serviceType": "Pharmacy Support",
+    "staffType": [
+      "Delivery Team"
+    ],
+    "content": {
+      "summary": "Convenient home delivery of prescribed medicines and healthcare essentials.",
+      "details": [
+        "Our medicine delivery service helps patients and families receive prescribed medicines at home without the need to travel to a pharmacy.",
+        "Medicine availability and delivery timelines depend on prescription requirements, stock, and service area."
+      ]
+    },
+    "serviceScope": [
+      {
+        "icon": "Pill",
+        "title": "Prescription Medicines",
+        "description": "Delivery of medicines based on a valid prescription where required."
+      },
+      {
+        "icon": "Package",
+        "title": "Home Delivery",
+        "description": "Convenient delivery directly to the patient's home."
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Order Coordination",
+        "description": "Assistance with coordinating medicine requirements and delivery."
+      }
+    ],
+    "serviceInformation": {
+      "duration": [
+        "Per Order"
+      ],
+      "availability": "As Per Delivery Schedule",
+      "coverageArea": [
+        "Noida",
+        "Greater Noida",
+        "Delhi NCR"
+      ]
+    },
+    "tags": [
+      "medicine",
+      "pharmacy",
+      "medicine-delivery",
+      "home-delivery"
+    ],
+    "relatedServices": [
+      "doctor-visit-at-home",
+      "skilled-nursing-care"
+    ],
+    "pricing": {
+      "originalPrice": null,
+      "discountedPrice": null,
+      "currency": "INR"
+    }
+  }
+]

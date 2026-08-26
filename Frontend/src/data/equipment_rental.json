@@ -1,0 +1,665 @@
+[
+  {
+    "id": "hospital-bed",
+    "image": "/assets/equipment/hospital-bed.jpeg",
+    "name": "Hospital Bed",
+    "type": "Hospital Furniture",
+    "technicalSpecifications": [
+      {
+        "label": "Adjustment",
+        "value": "Manual or Electric Head, Foot & Height Adjustment"
+      },
+      {
+        "label": "Frame Material",
+        "value": "Powder-Coated Steel"
+      },
+      {
+        "label": "Weight Capacity",
+        "value": "Up to 150 kg"
+      },
+      {
+        "label": "Included Accessories",
+        "value": "Side Rails, Mattress, Wheels with Brakes"
+      }
+    ],
+    "serviceInformation": {
+      "availability": "In Stock",
+      "deliveryTime": "Same Day (Noida, Greater Noida, Delhi NCR)",
+      "setupIncluded": true,
+      "maintenanceSupport": "Free servicing during rental period"
+    },
+    "rentalInformation": {
+      "dailyRate": 150,
+      "weeklyRate": 900,
+      "monthlyRate": 3000,
+      "securityDeposit": 2000,
+      "minimumRentalPeriod": "7 Days"
+    },
+    "originalPrice": 3500,
+    "discountedPrice": 3000
+  },
+  {
+    "id": "icu-bed",
+    "image": "/assets/equipment/icu-bed.jpg",
+    "name": "ICU Bed",
+    "type": "Hospital Furniture",
+    "technicalSpecifications": [
+      {
+        "label": "Adjustment",
+        "value": "Fully Electric — Head, Foot, Height & Trendelenburg"
+      },
+      {
+        "label": "Frame Material",
+        "value": "Reinforced Steel, Anti-Rust Coating"
+      },
+      {
+        "label": "Weight Capacity",
+        "value": "Up to 180 kg"
+      },
+      {
+        "label": "Included Accessories",
+        "value": "ICU Mattress, Side Rails, IV Pole Mount"
+      }
+    ],
+    "serviceInformation": {
+      "availability": "In Stock",
+      "deliveryTime": "Same Day (Noida, Greater Noida, Delhi NCR)",
+      "setupIncluded": true,
+      "maintenanceSupport": "Free servicing during rental period"
+    },
+    "rentalInformation": {
+      "dailyRate": 300,
+      "weeklyRate": 1900,
+      "monthlyRate": 6500,
+      "securityDeposit": 5000,
+      "minimumRentalPeriod": "7 Days"
+    },
+    "originalPrice": 7500,
+    "discountedPrice": 6500
+  },
+  {
+    "id": "oxygen-concentrator",
+    "image": "/assets/equipment/oxygen-concentrator.jpg",
+    "name": "Oxygen Concentrator",
+    "type": "Respiratory Support",
+    "technicalSpecifications": [
+      {
+        "label": "Flow Rate",
+        "value": "0.5 – 5 LPM (Adjustable)"
+      },
+      {
+        "label": "Oxygen Purity",
+        "value": "90% – 96%"
+      },
+      {
+        "label": "Power Requirement",
+        "value": "220V AC"
+      },
+      {
+        "label": "Noise Level",
+        "value": "< 40 dB"
+      }
+    ],
+    "serviceInformation": {
+      "availability": "In Stock",
+      "deliveryTime": "Same Day (Noida, Greater Noida, Delhi NCR)",
+      "setupIncluded": true,
+      "maintenanceSupport": "Free servicing during rental period"
+    },
+    "rentalInformation": {
+      "dailyRate": 100,
+      "weeklyRate": 650,
+      "monthlyRate": 2200,
+      "securityDeposit": 3000,
+      "minimumRentalPeriod": "3 Days"
+    },
+    "originalPrice": 2600,
+    "discountedPrice": 2200
+  },
+  {
+    "id": "oxygen-cylinder",
+    "image": "/assets/equipment/oxygen-cylinder.jpg",
+    "name": "Oxygen Cylinder",
+    "type": "Respiratory Support",
+    "technicalSpecifications": [
+      {
+        "label": "Cylinder Type",
+        "value": "Medical-Grade Oxygen Cylinder"
+      },
+      {
+        "label": "Capacity",
+        "value": "Available in Multiple Capacities"
+      },
+      {
+        "label": "Regulator",
+        "value": "Medical Oxygen Regulator with Flow Control"
+      },
+      {
+        "label": "Included Accessories",
+        "value": "Regulator, Flow Meter & Tubing"
+      }
+    ],
+    "serviceInformation": {
+      "availability": "Subject to Availability",
+      "deliveryTime": "Same Day (Noida, Greater Noida, Delhi NCR)",
+      "setupIncluded": true,
+      "maintenanceSupport": "Cylinder and regulator inspection during rental period"
+    },
+    "rentalInformation": {
+      "dailyRate": 80,
+      "weeklyRate": 500,
+      "monthlyRate": 1500,
+      "securityDeposit": 2500,
+      "minimumRentalPeriod": "1 Day"
+    },
+    "originalPrice": 1800,
+    "discountedPrice": 1500
+  },
+  {
+    "id": "ventilator",
+    "image": "/assets/equipment/ventilator.jpg",
+    "name": "Ventilator",
+    "type": "Life Support",
+    "technicalSpecifications": [
+      {
+        "label": "Modes",
+        "value": "Volume Control, Pressure Control, SIMV"
+      },
+      {
+        "label": "Tidal Volume Range",
+        "value": "50 – 2000 mL"
+      },
+      {
+        "label": "Power Requirement",
+        "value": "220V AC with Battery Backup"
+      },
+      {
+        "label": "Monitoring",
+        "value": "Built-in Alarms & Vital Display"
+      }
+    ],
+    "serviceInformation": {
+      "availability": "Subject to Confirmation",
+      "deliveryTime": "Same Day, Requires Clinical Assessment",
+      "setupIncluded": true,
+      "maintenanceSupport": "Daily technician check-in included"
+    },
+    "rentalInformation": {
+      "dailyRate": 800,
+      "weeklyRate": 5000,
+      "monthlyRate": 18000,
+      "securityDeposit": 15000,
+      "minimumRentalPeriod": "7 Days"
+    },
+    "originalPrice": 21000,
+    "discountedPrice": 18000
+  },
+  {
+    "id": "bipap-machine",
+    "image": "/assets/equipment/bipap-machine.jpg",
+    "name": "BiPAP Machine",
+    "type": "Respiratory Support",
+    "technicalSpecifications": [
+      {
+        "label": "Pressure Range",
+        "value": "IPAP/EPAP 4 – 25 cmH2O"
+      },
+      {
+        "label": "Modes",
+        "value": "S, S/T, T, CPAP"
+      },
+      {
+        "label": "Power Requirement",
+        "value": "220V AC"
+      },
+      {
+        "label": "Included Accessories",
+        "value": "Mask, Tubing, Humidifier"
+      }
+    ],
+    "serviceInformation": {
+      "availability": "In Stock",
+      "deliveryTime": "Same Day (Noida, Greater Noida, Delhi NCR)",
+      "setupIncluded": true,
+      "maintenanceSupport": "Free servicing during rental period"
+    },
+    "rentalInformation": {
+      "dailyRate": 250,
+      "weeklyRate": 1600,
+      "monthlyRate": 5500,
+      "securityDeposit": 5000,
+      "minimumRentalPeriod": "7 Days"
+    },
+    "originalPrice": 6500,
+    "discountedPrice": 5500
+  },
+  {
+    "id": "cpap-machine",
+    "image": "/assets/equipment/cpap-machine.jpg",
+    "name": "CPAP Machine",
+    "type": "Respiratory Support",
+    "technicalSpecifications": [
+      {
+        "label": "Pressure Range",
+        "value": "4 – 20 cmH2O"
+      },
+      {
+        "label": "Modes",
+        "value": "CPAP / Auto CPAP"
+      },
+      {
+        "label": "Power Requirement",
+        "value": "220V AC"
+      },
+      {
+        "label": "Included Accessories",
+        "value": "Mask, Tubing & Humidifier"
+      }
+    ],
+    "serviceInformation": {
+      "availability": "In Stock",
+      "deliveryTime": "Same Day (Noida, Greater Noida, Delhi NCR)",
+      "setupIncluded": true,
+      "maintenanceSupport": "Free servicing during rental period"
+    },
+    "rentalInformation": {
+      "dailyRate": 180,
+      "weeklyRate": 1100,
+      "monthlyRate": 4000,
+      "securityDeposit": 4000,
+      "minimumRentalPeriod": "7 Days"
+    },
+    "originalPrice": 4800,
+    "discountedPrice": 4000
+  },
+  {
+    "id": "cardiac-monitor",
+    "image": "/assets/equipment/cardiac-monitor.jpg",
+    "name": "Cardiac Monitor",
+    "type": "Patient Monitoring",
+    "technicalSpecifications": [
+      {
+        "label": "Parameters",
+        "value": "ECG, SpO2, NIBP, Pulse Rate, Respiration"
+      },
+      {
+        "label": "Display",
+        "value": "10.1\" Color Touchscreen"
+      },
+      {
+        "label": "Power Requirement",
+        "value": "220V AC with Battery Backup"
+      },
+      {
+        "label": "Alarms",
+        "value": "Configurable High/Low Threshold Alarms"
+      }
+    ],
+    "serviceInformation": {
+      "availability": "In Stock",
+      "deliveryTime": "Same Day (Noida, Greater Noida, Delhi NCR)",
+      "setupIncluded": true,
+      "maintenanceSupport": "Free servicing during rental period"
+    },
+    "rentalInformation": {
+      "dailyRate": 200,
+      "weeklyRate": 1300,
+      "monthlyRate": 4500,
+      "securityDeposit": 4000,
+      "minimumRentalPeriod": "3 Days"
+    },
+    "originalPrice": 5200,
+    "discountedPrice": 4500
+  },
+  {
+    "id": "infusion-pump",
+    "image": "/assets/equipment/infusion-pump.jpg",
+    "name": "Infusion Pump",
+    "type": "Infusion & Medication",
+    "technicalSpecifications": [
+      {
+        "label": "Infusion Rate",
+        "value": "Programmable Flow Rate with High Accuracy"
+      },
+      {
+        "label": "Display",
+        "value": "Digital Display with Real-Time Infusion Status"
+      },
+      {
+        "label": "Safety Features",
+        "value": "Occlusion, Air-in-Line & Completion Alarms"
+      },
+      {
+        "label": "Power",
+        "value": "AC Power with Battery Backup"
+      }
+    ],
+    "serviceInformation": {
+      "availability": "In Stock",
+      "deliveryTime": "Same Day (Noida, Greater Noida, Delhi NCR)",
+      "setupIncluded": true,
+      "maintenanceSupport": "Free servicing during rental period"
+    },
+    "rentalInformation": {
+      "dailyRate": 180,
+      "weeklyRate": 1100,
+      "monthlyRate": 3500,
+      "securityDeposit": 4000,
+      "minimumRentalPeriod": "3 Days"
+    },
+    "originalPrice": 4200,
+    "discountedPrice": 3500
+  },
+  {
+    "id": "syringe-pump",
+    "image": "/assets/equipment/syringe-pump.jpg",
+    "name": "Syringe Pump",
+    "type": "Infusion & Medication",
+    "technicalSpecifications": [
+      {
+        "label": "Syringe Compatibility",
+        "value": "Compatible with Standard Medical Syringe Sizes"
+      },
+      {
+        "label": "Flow Control",
+        "value": "Highly Precise Programmable Flow Rate"
+      },
+      {
+        "label": "Safety Features",
+        "value": "Occlusion, End-of-Syringe & Low-Battery Alarms"
+      },
+      {
+        "label": "Power",
+        "value": "AC Power with Battery Backup"
+      }
+    ],
+    "serviceInformation": {
+      "availability": "In Stock",
+      "deliveryTime": "Same Day (Noida, Greater Noida, Delhi NCR)",
+      "setupIncluded": true,
+      "maintenanceSupport": "Free servicing during rental period"
+    },
+    "rentalInformation": {
+      "dailyRate": 150,
+      "weeklyRate": 900,
+      "monthlyRate": 3000,
+      "securityDeposit": 3500,
+      "minimumRentalPeriod": "3 Days"
+    },
+    "originalPrice": 3600,
+    "discountedPrice": 3000
+  },
+  {
+    "id": "suction-machine",
+    "image": "/assets/equipment/suction-machine.jpg",
+    "name": "Suction Machine",
+    "type": "Respiratory Support",
+    "technicalSpecifications": [
+      {
+        "label": "Suction Type",
+        "value": "Electric Medical Suction"
+      },
+      {
+        "label": "Vacuum Range",
+        "value": "Adjustable Vacuum Pressure"
+      },
+      {
+        "label": "Collection Capacity",
+        "value": "Reusable Collection Bottle"
+      },
+      {
+        "label": "Power Requirement",
+        "value": "220V AC"
+      }
+    ],
+    "serviceInformation": {
+      "availability": "In Stock",
+      "deliveryTime": "Same Day (Noida, Greater Noida, Delhi NCR)",
+      "setupIncluded": true,
+      "maintenanceSupport": "Free servicing during rental period"
+    },
+    "rentalInformation": {
+      "dailyRate": 100,
+      "weeklyRate": 600,
+      "monthlyRate": 2000,
+      "securityDeposit": 3000,
+      "minimumRentalPeriod": "3 Days"
+    },
+    "originalPrice": 2400,
+    "discountedPrice": 2000
+  },
+  {
+    "id": "nebulizer",
+    "image": "/assets/equipment/nebulizer.jpg",
+    "name": "Nebulizer",
+    "type": "Respiratory Support",
+    "technicalSpecifications": [
+      {
+        "label": "Nebulization Type",
+        "value": "Compressor-Based Nebulization"
+      },
+      {
+        "label": "Particle Size",
+        "value": "Fine Aerosol Particle Output"
+      },
+      {
+        "label": "Medication Capacity",
+        "value": "Suitable for Standard Nebulizer Medication Volumes"
+      },
+      {
+        "label": "Power Requirement",
+        "value": "220V AC"
+      }
+    ],
+    "serviceInformation": {
+      "availability": "In Stock",
+      "deliveryTime": "Same Day (Noida, Greater Noida, Delhi NCR)",
+      "setupIncluded": false,
+      "maintenanceSupport": "Free servicing during rental period"
+    },
+    "rentalInformation": {
+      "dailyRate": 50,
+      "weeklyRate": 300,
+      "monthlyRate": 900,
+      "securityDeposit": 1500,
+      "minimumRentalPeriod": "1 Day"
+    },
+    "originalPrice": 1200,
+    "discountedPrice": 900
+  },
+  {
+    "id": "wheelchair",
+    "image": "/assets/equipment/wheelchair.jpg",
+    "name": "Wheelchair",
+    "type": "Mobility Aid",
+    "technicalSpecifications": [
+      {
+        "label": "Frame Material",
+        "value": "Lightweight Steel, Foldable"
+      },
+      {
+        "label": "Weight Capacity",
+        "value": "Up to 120 kg"
+      },
+      {
+        "label": "Seat Width",
+        "value": "18 inches"
+      },
+      {
+        "label": "Extras",
+        "value": "Removable Footrests & Armrests"
+      }
+    ],
+    "serviceInformation": {
+      "availability": "In Stock",
+      "deliveryTime": "Same Day (Noida, Greater Noida, Delhi NCR)",
+      "setupIncluded": false,
+      "maintenanceSupport": "Free replacement if faulty"
+    },
+    "rentalInformation": {
+      "dailyRate": 40,
+      "weeklyRate": 250,
+      "monthlyRate": 800,
+      "securityDeposit": 1000,
+      "minimumRentalPeriod": "1 Day"
+    },
+    "originalPrice": 1000,
+    "discountedPrice": 800
+  },
+  {
+    "id": "walker",
+    "image": "/assets/equipment/walker.jpg",
+    "name": "Walker",
+    "type": "Mobility Aid",
+    "technicalSpecifications": [
+      {
+        "label": "Frame Material",
+        "value": "Lightweight Aluminium"
+      },
+      {
+        "label": "Design",
+        "value": "Foldable and Height Adjustable"
+      },
+      {
+        "label": "Weight Capacity",
+        "value": "Up to 120 kg"
+      },
+      {
+        "label": "Features",
+        "value": "Non-Slip Rubber Tips and Ergonomic Handles"
+      }
+    ],
+    "serviceInformation": {
+      "availability": "In Stock",
+      "deliveryTime": "Same Day (Noida, Greater Noida, Delhi NCR)",
+      "setupIncluded": false,
+      "maintenanceSupport": "Free replacement if faulty"
+    },
+    "rentalInformation": {
+      "dailyRate": 30,
+      "weeklyRate": 180,
+      "monthlyRate": 600,
+      "securityDeposit": 800,
+      "minimumRentalPeriod": "1 Day"
+    },
+    "originalPrice": 800,
+    "discountedPrice": 600
+  },
+  {
+    "id": "air-mattress",
+    "image": "/assets/equipment/air-mattress.jpg",
+    "name": "Air Mattress",
+    "type": "Patient Care & Comfort",
+    "technicalSpecifications": [
+      {
+        "label": "Mattress Type",
+        "value": "Alternating Pressure Air Mattress"
+      },
+      {
+        "label": "Pump",
+        "value": "Electric Pump with Adjustable Pressure"
+      },
+      {
+        "label": "Recommended Use",
+        "value": "Pressure Sore Prevention and Bedridden Patient Care"
+      },
+      {
+        "label": "Size",
+        "value": "Standard Single-Patient Bed Size"
+      }
+    ],
+    "serviceInformation": {
+      "availability": "In Stock",
+      "deliveryTime": "Same Day (Noida, Greater Noida, Delhi NCR)",
+      "setupIncluded": true,
+      "maintenanceSupport": "Free servicing during rental period"
+    },
+    "rentalInformation": {
+      "dailyRate": 60,
+      "weeklyRate": 350,
+      "monthlyRate": 1200,
+      "securityDeposit": 2000,
+      "minimumRentalPeriod": "3 Days"
+    },
+    "originalPrice": 1500,
+    "discountedPrice": 1200
+  },
+  {
+    "id": "commode-chair",
+    "image": "/assets/equipment/commode-chair.jpg",
+    "name": "Commode Chair",
+    "type": "Patient Care & Comfort",
+    "technicalSpecifications": [
+      {
+        "label": "Frame Material",
+        "value": "Powder-Coated Steel"
+      },
+      {
+        "label": "Design",
+        "value": "Height Adjustable with Armrests"
+      },
+      {
+        "label": "Weight Capacity",
+        "value": "Up to 120 kg"
+      },
+      {
+        "label": "Features",
+        "value": "Removable Commode Bucket and Non-Slip Feet"
+      }
+    ],
+    "serviceInformation": {
+      "availability": "In Stock",
+      "deliveryTime": "Same Day (Noida, Greater Noida, Delhi NCR)",
+      "setupIncluded": false,
+      "maintenanceSupport": "Free replacement if faulty"
+    },
+    "rentalInformation": {
+      "dailyRate": 40,
+      "weeklyRate": 250,
+      "monthlyRate": 800,
+      "securityDeposit": 1000,
+      "minimumRentalPeriod": "1 Day"
+    },
+    "originalPrice": 1000,
+    "discountedPrice": 800
+  },
+  {
+    "id": "patient-lift",
+    "image": "/assets/equipment/patient-lift.jpg",
+    "name": "Patient Lift",
+    "type": "Mobility Aid",
+    "technicalSpecifications": [
+      {
+        "label": "Lift Type",
+        "value": "Manual Hydraulic"
+      },
+      {
+        "label": "Weight Capacity",
+        "value": "Up to 150 kg"
+      },
+      {
+        "label": "Sling Included",
+        "value": "Yes, Full-Body Sling"
+      },
+      {
+        "label": "Base",
+        "value": "Adjustable-Width Wheeled Base"
+      }
+    ],
+    "serviceInformation": {
+      "availability": "In Stock",
+      "deliveryTime": "1–2 Days (Noida, Greater Noida, Delhi NCR)",
+      "setupIncluded": true,
+      "maintenanceSupport": "Free servicing during rental period"
+    },
+    "rentalInformation": {
+      "dailyRate": 120,
+      "weeklyRate": 750,
+      "monthlyRate": 2500,
+      "securityDeposit": 3000,
+      "minimumRentalPeriod": "7 Days"
+    },
+    "originalPrice": 3000,
+    "discountedPrice": 2500
+  }
+]
