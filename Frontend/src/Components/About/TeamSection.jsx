@@ -7,7 +7,7 @@ const teamData = [
   {
     name: "Dev Akash Singh",
     role: "ICU Head Nurse & Managing director",
-    desc: "Over 10 years of experience in critical care and patient management.",
+    desc: "Over 6+ years of experience in critical care and patient management.",
     image: Akash
   },
   {
