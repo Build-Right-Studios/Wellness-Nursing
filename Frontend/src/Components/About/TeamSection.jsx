@@ -5,14 +5,14 @@ import Dhruv from "../../assets/Dhruv.jpeg"
 
 const teamData = [
   {
-    name: "Akash Singh",
-    role: "Head of Nursing",
+    name: "Dev Akash Singh",
+    role: "ICU Head Nurse & Managing director",
     desc: "Over 10 years of experience in critical care and patient management.",
     image: Akash
   },
   {
     name: "Dr Dhruv Varshney",
-    role: "Critical care patient management",
+    role: "Experience in Critical care patient management",
     desc: "Specializes in creating personalized, holistic care plans for long-term patients.",
     image: Dhruv
   },
