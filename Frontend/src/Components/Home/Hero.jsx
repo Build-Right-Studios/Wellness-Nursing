@@ -84,7 +84,7 @@ export default function Hero() {
               <Phone size={16} /> Call Now
             </a>
             <a
-              href="#contact"
+              href="/contact"
               className="inline-flex h-[44px] w-full items-center justify-center gap-2 rounded-full border-2 bg-white px-6 text-[13px] font-semibold transition-all active:scale-[0.98] sm:w-auto"
               style={{ borderColor: BRAND.primary, color: BRAND.primaryDark }}
               onMouseEnter={(e) => {
