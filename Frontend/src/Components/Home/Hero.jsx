@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"; // <-- Add this
 import { Phone, ShieldCheck, Clock, Building2, ClipboardCheck } from "lucide-react";
 import heroImage from "../../assets/hero-photo.png";
 
@@ -30,16 +31,14 @@ export default function Hero() {
       id="home"
       className="relative isolate flex flex-col overflow-hidden bg-white lg:h-[calc(100vh-5.75rem)] lg:min-h-[600px]"
     >
-      {/* BACKGROUND - Full bleed on both mobile & desktop */}
+      {/* BACKGROUND */}
       <div className="absolute inset-0">
         <img
           src={heroImage}
           alt="A caregiver holding hands with an elderly patient at home"
           className="h-full w-full object-cover object-[75%_center] lg:object-center"
         />
-        {/* Mobile: heavy white wash for readability */}
         <div className="absolute inset-0 bg-white/85 sm:bg-white/75 lg:hidden" />
-        {/* Desktop: left to right fade like your screenshot */}
         <div
           className="absolute inset-0 hidden lg:block"
           style={{
@@ -52,8 +51,6 @@ export default function Hero() {
 
       {/* MAIN CONTENT */}
       <div className="relative z-10 mx-auto flex w-full max-w-7xl flex-1 flex-col px-5 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
-
-        {/* Text Block */}
         <div className="max-w-[560px]">
           <span className="mb-3 inline-block text-[10px] font-extrabold uppercase tracking-[0.14em] sm:text-xs" style={{ color: BRAND.primary }}>
             Compassionate Home Healthcare
@@ -78,13 +75,13 @@ export default function Hero() {
               href="tel:+918115637591"
               className="inline-flex h-[44px] w-full items-center justify-center gap-2 rounded-full px-6 text-[13px] font-bold text-white shadow-md transition-all active:scale-[0.98] sm:w-auto"
               style={{ background: BRAND.tertiary }}
-              onMouseEnter={(e) => (e.currentTarget.style.background = BRAND.tertiaryDark)}
-              onMouseLeave={(e) => (e.currentTarget.style.background = BRAND.tertiary)}
             >
               <Phone size={16} /> Call Now
             </a>
-            <a
-              href="/contact"
+
+            {/* FIXED: Changed <a href="/contact"> to <Link to="/contact"> */}
+            <Link
+              to="/contact"
               className="inline-flex h-[44px] w-full items-center justify-center gap-2 rounded-full border-2 bg-white px-6 text-[13px] font-semibold transition-all active:scale-[0.98] sm:w-auto"
               style={{ borderColor: BRAND.primary, color: BRAND.primaryDark }}
               onMouseEnter={(e) => {
@@ -97,11 +94,10 @@ export default function Hero() {
               }}
             >
               Book a Consultation
-            </a>
+            </Link>
           </div>
         </div>
 
-        {/* TRUST STRIP - Pushes to bottom on desktop, normal on mobile */}
         <div className="mt-auto pt-10 lg:pt-0">
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4 sm:gap-4">
             {TRUST_ITEMS.map(({ icon: Icon, title, desc, tint, color }) => (
