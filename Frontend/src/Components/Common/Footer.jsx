@@ -26,7 +26,7 @@ const SUPPORT_LINKS = [
 ];
 
 const PHONE_DISPLAY = "+91 81156 37591";
-const PHONE_TEL = "+918115637591";
+const PHONE_TEL = "+917827356935";
 const WHATSAPP_NUMBER = "918115637591"; // digits only, no + or spaces
 
 export default function Footer() {
@@ -97,13 +97,13 @@ export default function Footer() {
                 <li className="flex items-start gap-2.5">
                   <MapPin size={16} className="mt-0.5 flex-shrink-0" style={{ color: BRAND.primary }} />
                   <span className="text-sm" style={{ color: BRAND.inkSoft }}>
-                    Noida, Greater Noida &amp; Delhi NCR
+                    Sec 115 Nagori benqet hall noida 201301 Gautambudha Nagar
                   </span>
                 </li>
                 <li className="flex items-center gap-2.5">
                   <Phone size={16} className="flex-shrink-0" style={{ color: BRAND.primary }} />
                   <a href={`tel:${PHONE_TEL}`} className="text-sm hover:underline" style={{ color: BRAND.inkSoft }}>
-                    {PHONE_DISPLAY}
+                    {PHONE_TEL}
                   </a>
                 </li>
                 <li className="flex items-center gap-2.5">
@@ -113,7 +113,7 @@ export default function Footer() {
                     className="text-sm hover:underline"
                     style={{ color: BRAND.inkSoft }}
                   >
-                    care@wellnessnursinghomecare.com
+                    a0208611@gmail.com
                   </a>
                 </li>
               </ul>

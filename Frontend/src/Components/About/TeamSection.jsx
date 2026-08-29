@@ -1,18 +1,20 @@
 import { BRAND, FONTS } from "../../constants/brand";
 import TeamCard from "./TeamCard";
+import Akash from "../../assets/Akash.jpeg"
+import Dhruv from "../../assets/Dhruv.jpeg"
 
 const teamData = [
   {
-    name: "Sarah Jenkins, RN",
+    name: "Akash Singh",
     role: "Head of Nursing",
-    desc: "Over 15 years of experience in critical care and patient management.",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCosRGdeov6UHdp6qOYVnYRsN91uuxgjkQ4UMVMvCjr2aIvtlei3Pr8KGa5IHUGCxdEUilpP14SDZbEQuowl1xOtJ5ormIQamsmEnjbnFnyutIgcWiavya2CtR7AgK6x7mRA4r9fc89Kzzm6C7EwK8n-CfG8kay7TyFOA3TbnI-EgIwOOTlVwXbBhPBmvQrbWQNrtvaIvUvw5PRb92944-Gnoj6J30OKJ-KUENt084tkSy0QX5jz5VoWA"
+    desc: "Over 10 years of experience in critical care and patient management.",
+    image: Akash
   },
   {
-    name: "David Chen",
-    role: "Lead Care Coordinator",
+    name: "Dr Dhruv Varshney",
+    role: "Critical care patient management",
     desc: "Specializes in creating personalized, holistic care plans for long-term patients.",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAqmu3Tjim3Y4pLTrcHdVmEzBoMpqW5yzrjKS7tqkO6ZmXPyxJ57_eVAMqQ6yxK6VO_2AKft_Ls7ChvYRSxW6TCMMfv99-1WUcaD8aRGEnBjq5kNVmLnUkq47oPMVvFQxSj68UQBrWENyRYfEInOHcTUAYq2cq6aVGgCHPM5OIy8f1mdk47kf03F7o1Yhk6hPyBXaJ2rNqlrUfn9DC9Z0xSX9zcBuksy-4botW5K8-XzTFkwRoxjBL-1Q"
+    image: Dhruv
   },
 ];
 
