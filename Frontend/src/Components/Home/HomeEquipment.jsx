@@ -21,8 +21,8 @@ const HOME_EQUIPMENT_IDS = [
   "wheelchair",
   "bipap-machine",
   "suction-machine",
-  "icu-monitor",
-  "dvt-pump",
+  "cpap-machine",
+  "walker"
 ];
 
 function getImageUrl(jsonPath) {

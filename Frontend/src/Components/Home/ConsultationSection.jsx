@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { ArrowRight, Loader2, CheckCircle2 } from "lucide-react";
 import paralysisImg from "../../assets/paralysis-care.jpg";
 import postSurgeryImg from "../../assets/post-surgery-care.jpg";
@@ -13,20 +14,22 @@ const BRAND = {
   line: "#E3EAEC",
 };
 
-// Services shown on the right. Add/remove entries here to control the list —
-// each needs a photo imported from assets, same pattern as the two above.
 const SERVICES = [
   {
+    id: "paralysis-stroke-care", // must match your services.json id
     title: "Paralysis & Stroke Care",
     desc: "Dedicated neuro-rehabilitation routines, prevention of bedsores, and complete daily living assistance by specialized attendants.",
     image: paralysisImg,
+    link: "/services/stroke-paralysis-care"
   },
   {
+    id: "post-surgery-care",
     title: "Post-Surgery Care",
     desc: "Wound management, vital monitoring, pain management, and assistance with mobility during the crucial recovery phase.",
     image: postSurgeryImg,
+    link: "/services/post-operative-care"
   },
-];
+]
 
 const SERVICE_OPTIONS = [
   "24×7 Home Nursing Care",
@@ -77,22 +80,32 @@ export default function ConsultationSection() {
     setStatus("submitting");
 
     try {
-      // TODO: point this at your real backend/lead-capture endpoint, e.g.:
-      //
-      // const res = await fetch("/api/leads", {
-      //   method: "POST",
-      //   headers: { "Content-Type": "application/json" },
-      //   body: JSON.stringify(form),
-      // });
-      // if (!res.ok) throw new Error("Request failed");
-      //
-      // Placeholder below simulates a network call so the UI states work
-      // end-to-end even before the backend exists — swap it out once wired up.
-      await new Promise((resolve) => setTimeout(resolve, 900));
+      const res = await fetch("/api/leads", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          fullName: form.fullName,
+          phone: form.phone,
+          serviceNeeded: form.service,
+          source: "home_consultation_section",
+          pageUrl: window.location.href,
+          timestamp: new Date().toISOString(),
+        }),
+      });
+
+      if (!res.ok) {
+        const data = await res.json().catch(() => ({}));
+        throw new Error(data.message || "Request failed");
+      }
 
       setStatus("success");
       setForm(INITIAL_FORM);
+
+      // optional: reset success message after 5 sec
+      setTimeout(() => setStatus("idle"), 5000);
+
     } catch (err) {
+      console.error("Lead submit failed:", err);
       setStatus("error");
     }
   };
@@ -275,14 +288,14 @@ export default function ConsultationSection() {
                     <p className="mt-1 text-sm leading-relaxed" style={{ color: BRAND.inkSoft }}>
                       {service.desc}
                     </p>
-                    <a
-                      href="#services"
+                    <Link
+                      to={service.link}
                       className="mt-2 inline-flex items-center gap-1 text-sm font-semibold"
                       style={{ color: BRAND.primary }}
                     >
                       Learn More
                       <ArrowRight size={14} />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               ))}
