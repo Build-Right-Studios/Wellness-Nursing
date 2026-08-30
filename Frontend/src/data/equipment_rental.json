@@ -622,44 +622,5 @@
     },
     "originalPrice": 1000,
     "discountedPrice": 800
-  },
-  {
-    "id": "patient-lift",
-    "image": "/assets/equipment/patient-lift.jpg",
-    "name": "Patient Lift",
-    "type": "Mobility Aid",
-    "technicalSpecifications": [
-      {
-        "label": "Lift Type",
-        "value": "Manual Hydraulic"
-      },
-      {
-        "label": "Weight Capacity",
-        "value": "Up to 150 kg"
-      },
-      {
-        "label": "Sling Included",
-        "value": "Yes, Full-Body Sling"
-      },
-      {
-        "label": "Base",
-        "value": "Adjustable-Width Wheeled Base"
-      }
-    ],
-    "serviceInformation": {
-      "availability": "In Stock",
-      "deliveryTime": "1–2 Days (Noida, Greater Noida, Delhi NCR)",
-      "setupIncluded": true,
-      "maintenanceSupport": "Free servicing during rental period"
-    },
-    "rentalInformation": {
-      "dailyRate": 120,
-      "weeklyRate": 750,
-      "monthlyRate": 2500,
-      "securityDeposit": 3000,
-      "minimumRentalPeriod": "7 Days"
-    },
-    "originalPrice": 3000,
-    "discountedPrice": 2500
   }
 ]

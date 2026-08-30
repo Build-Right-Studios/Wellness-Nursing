@@ -1,5 +1,10 @@
 import { BRAND } from "../../constants/brand";
 
+const PHONE_TEL = "+917827356935";
+const WHATSAPP_NUMBER = "918115637591";
+const TEL_LINK = `tel:${PHONE_TEL}`;
+const PHONE_DISPLAY = "+91 78273 56935";
+
 const DetailSidebar = ({ data, isService }) => {
   return (
     <div className="w-full lg:w-[300px] shrink-0 flex flex-col gap-4">
@@ -9,12 +14,26 @@ const DetailSidebar = ({ data, isService }) => {
         <p className="text-[12px] leading-[17px] mt-1" style={{ color: "#6B7280" }}>
           Our clinical intake team is available 24/7 to assess your needs and deploy care quickly.
         </p>
-        <button className="mt-4 w-full h-[40px] rounded-[8px] flex items-center justify-center gap-2 text-[12px] font-semibold text-white" style={{ background: BRAND.primary }}>
-          📞 Call (555) 123-4567
-        </button>
-        <button className="mt-2 w-full h-[36px] rounded-[8px] text-[12px] font-semibold border" style={{ borderColor: BRAND.line, color: BRAND.ink }}>
-          Request Callback
-        </button>
+
+        {/* CALL BUTTON - uses PHONE_TEL */}
+        <a
+          href={TEL_LINK}
+          className="mt-4 w-full h-[40px] rounded-[8px] flex items-center justify-center gap-2 text-[12px] font-semibold text-white"
+          style={{ background: BRAND.primary }}
+        >
+          📞 Call {PHONE_DISPLAY}
+        </a>
+
+        {/* WHATSAPP BUTTON */}
+        <a
+          href={`https://wa.me/${WHATSAPP_NUMBER}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-2 w-full h-[36px] rounded-[8px] flex items-center justify-center gap-2 text-[12px] font-semibold border bg-white hover:bg-gray-50"
+          style={{ borderColor: BRAND.line, color: BRAND.ink }}
+        >
+          WhatsApp Us
+        </a>
       </div>
 
       {/* Details Card */}
