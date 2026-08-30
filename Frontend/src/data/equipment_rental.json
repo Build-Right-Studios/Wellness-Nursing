@@ -1,7 +1,7 @@
 [
   {
     "id": "hospital-bed",
-    "image": "/assets/equipment/hospital-bed.jpeg",
+    "image": "/assets/equipment/hospital-bed.jpg",
     "name": "Hospital Bed",
     "type": "Hospital Furniture",
     "technicalSpecifications": [
@@ -40,7 +40,7 @@
   },
   {
     "id": "icu-bed",
-    "image": "/assets/equipment/icu-bed.jpg",
+    "image": "/assets/equipment/icu-bed.jpeg",
     "name": "ICU Bed",
     "type": "Hospital Furniture",
     "technicalSpecifications": [
@@ -79,7 +79,7 @@
   },
   {
     "id": "oxygen-concentrator",
-    "image": "/assets/equipment/oxygen-concentrator.jpg",
+    "image": "/assets/equipment/oxygen-concentrator.jpeg",
     "name": "Oxygen Concentrator",
     "type": "Respiratory Support",
     "technicalSpecifications": [
@@ -118,7 +118,7 @@
   },
   {
     "id": "oxygen-cylinder",
-    "image": "/assets/equipment/oxygen-cylinder.jpg",
+    "image": "/assets/equipment/oxygen-cylinder.jpeg",
     "name": "Oxygen Cylinder",
     "type": "Respiratory Support",
     "technicalSpecifications": [
@@ -157,7 +157,7 @@
   },
   {
     "id": "ventilator",
-    "image": "/assets/equipment/ventilator.jpg",
+    "image": "/assets/equipment/ventilator.jpeg",
     "name": "Ventilator",
     "type": "Life Support",
     "technicalSpecifications": [
@@ -196,7 +196,7 @@
   },
   {
     "id": "bipap-machine",
-    "image": "/assets/equipment/bipap-machine.jpg",
+    "image": "/assets/equipment/bipap-machine.jpeg",
     "name": "BiPAP Machine",
     "type": "Respiratory Support",
     "technicalSpecifications": [
@@ -274,7 +274,7 @@
   },
   {
     "id": "cardiac-monitor",
-    "image": "/assets/equipment/cardiac-monitor.jpg",
+    "image": "/assets/equipment/cardiac-monitor.jpeg",
     "name": "Cardiac Monitor",
     "type": "Patient Monitoring",
     "technicalSpecifications": [
@@ -313,7 +313,7 @@
   },
   {
     "id": "infusion-pump",
-    "image": "/assets/equipment/infusion-pump.jpg",
+    "image": "/assets/equipment/infusion-pump.jpeg",
     "name": "Infusion Pump",
     "type": "Infusion & Medication",
     "technicalSpecifications": [
@@ -352,7 +352,7 @@
   },
   {
     "id": "syringe-pump",
-    "image": "/assets/equipment/syringe-pump.jpg",
+    "image": "/assets/equipment/syringe-pump.jpeg",
     "name": "Syringe Pump",
     "type": "Infusion & Medication",
     "technicalSpecifications": [
@@ -430,7 +430,7 @@
   },
   {
     "id": "nebulizer",
-    "image": "/assets/equipment/nebulizer.jpg",
+    "image": "/assets/equipment/nebulizer.jpeg",
     "name": "Nebulizer",
     "type": "Respiratory Support",
     "technicalSpecifications": [
@@ -469,7 +469,7 @@
   },
   {
     "id": "wheelchair",
-    "image": "/assets/equipment/wheelchair.jpg",
+    "image": "/assets/equipment/wheelchair.jpeg",
     "name": "Wheelchair",
     "type": "Mobility Aid",
     "technicalSpecifications": [
@@ -586,7 +586,7 @@
   },
   {
     "id": "commode-chair",
-    "image": "/assets/equipment/commode-chair.jpg",
+    "image": "/assets/equipment/commode-chair.jpeg",
     "name": "Commode Chair",
     "type": "Patient Care & Comfort",
     "technicalSpecifications": [

@@ -7,6 +7,7 @@ import DetailContent from "../Components/Detail/DetailContent";
 import DetailSidebar from "../Components/Detail/DetailSidebar";
 import RelatedGrid from "../Components/Detail/RelatedGrid";
 
+// load all local images
 const imageModules = import.meta.glob("../assets/**/*.{jpeg,jpg,png,webp,JPG,JPEG}", {
   eager: true,
   import: "default"
@@ -18,13 +19,25 @@ const FALLBACK_IMAGES = {
   "wheelchair": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600"
 };
 
-function getImageUrl(jsonPath) {
+// --- IMPROVED ---
+export function getImageUrl(jsonPath) {
   if (!jsonPath) return null;
   if (jsonPath.startsWith("http")) return jsonPath;
-  const fileName = jsonPath.split("/").pop().split(".")[0].toLowerCase();
-  const foundKey = Object.keys(imageModules).find(k => k.toLowerCase().includes(fileName));
+
+  const rawFileName = jsonPath.split("/").pop() || "";
+  const fileName = rawFileName.split(".")[0].toLowerCase().trim().replace(/_/g, "-");
+
+  // find key that contains fileName
+  const foundKey = Object.keys(imageModules).find(k =>
+    k.toLowerCase().includes(fileName)
+  );
+
   if (foundKey) return imageModules[foundKey];
-  return FALLBACK_IMAGES[fileName] || `https://via.placeholder.com/600x400?text=${fileName}`;
+
+  if (FALLBACK_IMAGES[fileName]) return FALLBACK_IMAGES[fileName];
+
+  console.warn(`[Image Not Found] for ${jsonPath}, parsed as ${fileName}`);
+  return `https://placehold.co/600x400?text=${fileName}`;
 }
 
 const Detail = () => {
@@ -38,8 +51,8 @@ const Detail = () => {
     if (!rawData) return null;
     const resolved = getImageUrl(rawData.image);
     return {
-     ...rawData,
-      image: resolved, // null if not found, so DetailHero can handle it
+    ...rawData,
+      image: resolved,
       resolvedImage: resolved,
     };
   }, [rawData]);
@@ -56,12 +69,10 @@ const Detail = () => {
   return (
     <section className="w-full bg-white min-h-screen">
       <DetailHero data={data} isService={isService} />
-
       <div className="max-w-[1120px] mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 flex flex-col lg:flex-row gap-8">
         <DetailContent data={data} isService={isService} />
         <DetailSidebar data={data} isService={isService} />
       </div>
-
       <RelatedGrid
         currentId={data.id}
         relatedIds={data.relatedServices || data.relatedEquipments || []}
