@@ -45,14 +45,14 @@ const DetailSidebar = ({ data, isService }) => {
               <div className="flex justify-between"><span style={{ color: "#6B7280" }}>Duration:</span><span style={{ color: "#111827", fontWeight: 500 }}>{data.serviceInformation.duration[0]} / 24-Hour</span></div>
               <div className="flex justify-between"><span style={{ color: "#6B7280" }}>Availability:</span><span style={{ color: "#111827", fontWeight: 500 }}>{data.serviceInformation.availability}</span></div>
               <div className="flex justify-between"><span style={{ color: "#6B7280" }}>Coverage:</span><span style={{ color: "#111827", fontWeight: 500 }}>{data.serviceInformation.coverageArea[0]}, NCR</span></div>
-              <div className="flex justify-between"><span style={{ color: "#6B7280" }}>Price:</span><span style={{ color: BRAND.primary, fontWeight: 700 }}>₹{data.pricing.discountedPrice}</span></div>
+              {/* <div className="flex justify-between"><span style={{ color: "#6B7280" }}>Price:</span><span style={{ color: BRAND.primary, fontWeight: 700 }}>₹{data.pricing.discountedPrice}</span></div> */}
             </>
           ) : (
             <>
               <div className="flex justify-between"><span style={{ color: "#6B7280" }}>Availability:</span><span className="font-medium" style={{ color: "#0A9B4C" }}>{data.serviceInformation.availability}</span></div>
-              <div className="flex justify-between"><span style={{ color: "#6B7280" }}>Daily Rate:</span><span style={{ color: "#111827", fontWeight: 500 }}>₹{data.rentalInformation.dailyRate}</span></div>
+              {/* <div className="flex justify-between"><span style={{ color: "#6B7280" }}>Daily Rate:</span><span style={{ color: "#111827", fontWeight: 500 }}>₹{data.rentalInformation.dailyRate}</span></div>
               <div className="flex justify-between"><span style={{ color: "#6B7280" }}>Monthly:</span><span style={{ color: "#111827", fontWeight: 700 }}>₹{data.rentalInformation.monthlyRate}</span></div>
-              <div className="flex justify-between"><span style={{ color: "#6B7280" }}>Deposit:</span><span style={{ color: "#111827", fontWeight: 500 }}>₹{data.rentalInformation.securityDeposit}</span></div>
+              <div className="flex justify-between"><span style={{ color: "#6B7280" }}>Deposit:</span><span style={{ color: "#111827", fontWeight: 500 }}>₹{data.rentalInformation.securityDeposit}</span></div> */}
             </>
           )}
         </div>
