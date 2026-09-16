@@ -11,7 +11,7 @@ const ContactInfoCards = () => {
         <p className="text-[11px] font-semibold" style={{ color: BRAND.ink, fontFamily: "Inter" }}>Call Us</p>
         <p className="text-[11px] mt-1" style={{ color: BRAND.inkSoft }}>Mon-Sun, 8am - 10pm</p>
         <a href="tel:+917827356935" className="text-[14px] sm:text-[16px] font-bold mt-1 inline-block hover:underline" style={{ color: BRAND.primary, fontFamily: "Inter" }}>
-          +91 78273 56935
+          +91 78273 56922
         </a>
       </div>
 
