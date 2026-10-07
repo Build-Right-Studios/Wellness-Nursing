@@ -3,10 +3,10 @@ import { NavLink } from "react-router-dom";
 import { Menu, X, Phone } from "lucide-react";
 import logo from "../../assets/logo_new.png";
 
-const PHONE_TEL = "+917827356935";
+const PHONE_TEL = "+917827356922";
 const WHATSAPP_NUMBER = "918115637591"; // digits only, no + or spaces
 const TEL_LINK = `tel:${PHONE_TEL}`;
-const PHONE_DISPLAY = "+91 78273 56935";
+const PHONE_DISPLAY = "+91 7827356922";
 
 const BRAND = {
   primary: "#0B6E8F",

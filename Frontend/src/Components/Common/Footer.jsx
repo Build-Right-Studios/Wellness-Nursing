@@ -26,7 +26,7 @@ const SUPPORT_LINKS = [
 ];
 
 const PHONE_DISPLAY = "+91 81156 37591";
-const PHONE_TEL = "+917827356935";
+const PHONE_TEL = "+917827356922";
 const WHATSAPP_NUMBER = "918115637591"; // digits only, no + or spaces
 
 export default function Footer() {
