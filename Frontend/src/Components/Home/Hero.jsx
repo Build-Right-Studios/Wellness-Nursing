@@ -72,7 +72,7 @@ export default function Hero() {
 
           <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:gap-3.5">
             <a
-              href="tel:+918115637591"
+              href="tel:+917827356922"
               className="inline-flex h-[44px] w-full items-center justify-center gap-2 rounded-full px-6 text-[13px] font-bold text-white shadow-md transition-all active:scale-[0.98] sm:w-auto"
               style={{ background: BRAND.tertiary }}
             >
